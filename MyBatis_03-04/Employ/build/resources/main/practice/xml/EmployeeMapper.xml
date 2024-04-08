@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="practice.xml.EmployeeMapper">
+    <resultMap id="employeeResultMap" type="practice.common.EmployeeDTO">
+        <id property="id" column="EMP_ID"/>
+        <result property="name" column="EMP_NAME"/>
+        <result property="empCode" column="EMP_NO"/>
+        <result property="email" column="EMAIL"/>
+        <result property="phone" column="PHONE"/>
+        <result property="depCode" column="DEPT_CODE"/>
+        <result property="jobCode" column="JOB_CODE"/>
+        <result property="salLevel" column="SAL_LEVEL"/>
+        <result property="salary" column="SALARY"/>
+        <result property="bonus" column="BONUS"/>
+        <result property="managerId" column="MANAGER_ID"/>
+        <result property="hireDate" column="HIRE_DATE"/>
+        <result property="entDate" column="ENT_DATE"/>
+        <result property="entYear" column="ENT_YEAR"/>
+    </resultMap>
+    <select id="selectAllEmployee" resultMap="employeeResultMap">
+        SELECT
+              EMP_ID,
+              EMP_NAME,
+              EMP_NO,
+              EMAIL,
+              PHONE,
+              DEPT_CODE,
+              JOB_CODE,
+              SAL_LEVEL,
+              SALARY,
+              BONUS,
+              MANAGER_ID,
+              HIRE_DATE,
+              ENT_DATE,
+              ENT_YN
+         FROM EMPLOYEE
+    </select>
+
+    <select id="selectEmployeeByCode" resultMap="employeeResultMap">
+        SELECT
+              EMP_ID,
+              EMP_NAME,
+              EMP_NO,
+              EMAIL,
+              PHONE,
+              DEPT_CODE,
+              JOB_CODE,
+              SAL_LEVEL,
+              SALARY,
+              BONUS,
+              MANAGER_ID,
+              HIRE_DATE,
+              ENT_DATE,
+              ENT_YN
+         FROM EMPLOYEE
+        WHERE EMP_ID = #{ id }
+    </select>
+
+    <insert id="registEmployee" parameterType="practice.common.EmployeeDTO">
+        INSERT INTO EMPLOYEE
+        (
+            EMP_ID,
+            EMP_NAME,
+            EMP_NO,
+            EMAIL,
+            PHONE,
+            DEPT_CODE,
+            JOB_CODE,
+            SAL_LEVEL,
+            SALARY,
+            MANAGER_ID,
+            HIRE_DATE,
+            ENT_YN
+        )
+        VALUES
+        (
+            223,
+            #{ name },
+            '287485-5898789',
+            'blizzab@greedy.com',
+            '01057749992',
+<!--            #{ empCode },-->
+<!--            #{ email },-->
+<!--            #{ phone },-->
+            'D5',
+            'J4',
+            'S3',
+            37000000,
+            201,
+            '2024-04-08',
+            'N'
+        )
+    </insert>
+    <update id="modifyEmployee" parameterType="practice.common.EmployeeDTO">
+        UPDATE EMPLOYEE
+           SET EMP_NAME = #{ name }
+         WHERE EMP_ID = #{ id }
+    </update>
+    <delete id="deleteEmployee" parameterType="int">
+        DELETE FROM EMPLOYEE
+         WHERE EMP_ID = #{ id }
+    </delete>
+</mapper>
