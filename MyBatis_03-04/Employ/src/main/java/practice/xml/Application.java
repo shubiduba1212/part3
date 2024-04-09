@@ -56,19 +56,19 @@ public class Application {
     Scanner sc = new Scanner(System.in);
     System.out.print("추가하실 직원의 이름을 입력하세요 : ");
     String name = sc.nextLine();
-//    System.out.print("추가하실 직원의 번호를 입력하세요(6자리 - 7자리) : ");
-//    String empCode = sc.nextLine();
-//    System.out.print("추가하실 직원의 Email을 입력하세요 : ");
-//    String email = sc.nextLine();
-//    System.out.print("추가하실 직원의 전화번호를 입력하세요(-없이) : ");
-//    int phone = sc.nextInt();
+    System.out.print("추가하실 직원의 직원 코드를 입력하세요(6자리-7자리) : ");
+    String empCode = sc.nextLine();
+    System.out.print("추가하실 직원의 JOB 코드를 입력하세요(J1-7) : ");
+    String jobCode = sc.nextLine();
+    System.out.print("추가하실 직원의 연봉 레벨을 입력하세요(S1-6) : ");
+    String salLevel = sc.nextLine();
 
     Map<String, Object> parameter = new HashMap<>();
 
     parameter.put("name", name);
-//    parameter.put("empCode", empCode);
-//    parameter.put("email", email);
-//    parameter.put("phone", phone);
+    parameter.put("empCode", empCode);
+    parameter.put("jobCode", jobCode);
+    parameter.put("salLevel", salLevel);
 
     return parameter;
   }
