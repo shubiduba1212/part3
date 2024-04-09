@@ -58,39 +58,22 @@
         WHERE EMP_ID = #{ id }
     </select>
 
-    <insert id="registEmployee" parameterType="practice.common.EmployeeDTO">
+    <insert id="registEmployee" parameterType="hashmap">
         INSERT INTO EMPLOYEE
         (
             EMP_ID,
             EMP_NAME,
             EMP_NO,
-            EMAIL,
-            PHONE,
-            DEPT_CODE,
             JOB_CODE,
-            SAL_LEVEL,
-            SALARY,
-            MANAGER_ID,
-            HIRE_DATE,
-            ENT_YN
+            SAL_LEVEL
         )
         VALUES
         (
-            223,
+            (SELECT NUM FROM (SELECT COUNT(EMP_ID) + 201 AS NUM FROM EMPLOYEE) AS T),
             #{ name },
-            '287485-5898789',
-            'blizzab@greedy.com',
-            '01057749992',
-<!--            #{ empCode },-->
-<!--            #{ email },-->
-<!--            #{ phone },-->
-            'D5',
-            'J4',
-            'S3',
-            37000000,
-            201,
-            '2024-04-08',
-            'N'
+            #{ empCode },
+            #{ jobCode },
+            #{ salLevel }
         )
     </insert>
     <update id="modifyEmployee" parameterType="practice.common.EmployeeDTO">
