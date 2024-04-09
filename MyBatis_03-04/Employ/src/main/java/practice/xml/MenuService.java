@@ -52,35 +52,21 @@ public class MenuService {
 
   public boolean registEmployee(Map<String, Object> employee) {
 
-    String name = (String)employee.get("name");
-    System.out.println("name = " + name);
-//    String empCode = (String)employee.get("empCode");
-//    String email = (String)employee.get("email");
-//    int phone = (int)employee.get("phone");
-
     SqlSession sqlSession = getSqlSession();
 
     EmployeeMapper employeeMapper = sqlSession.getMapper(EmployeeMapper.class);
 
-    EmployeeDTO emp = new EmployeeDTO();
-    emp.setName(name);
+     int result = employeeMapper.registEmployee(employee);
 
-    System.out.println("emp.name : " + emp.getName());
-//    emp.setEmpCode(empCode);
-//    emp.setEmail(email);
-//    emp.setPhone(phone);
-
-   int result = employeeMapper.registEmployee(emp);
-
-    if (result > 0) {
-      System.out.println("직원 추가에 성공했습니다.");
-      sqlSession.commit();
-    } else {
-      sqlSession.rollback();
-      System.out.println("직원 추가에 실패했습니다.");
-    }
-    sqlSession.close();
-    return result > 0 ? true : false;
+      if (result > 0) {
+        System.out.println("직원 추가에 성공했습니다.");
+        sqlSession.commit();
+      } else {
+        sqlSession.rollback();
+        System.out.println("직원 추가에 실패했습니다.");
+      }
+      sqlSession.close();
+      return result > 0 ? true : false;
   }
 
   public boolean modifyEmployee(Map<String, Object> employee) {
