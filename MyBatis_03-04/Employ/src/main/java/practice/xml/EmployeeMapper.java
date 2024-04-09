@@ -11,9 +11,11 @@ public interface EmployeeMapper {
   EmployeeDTO selectEmployeeByCode(Map<String, Integer> map);
 
 
-  int registEmployee(EmployeeDTO emp);
+  //int registEmployee(EmployeeDTO emp);
 
   int modifyEmployee(EmployeeDTO emp);
 
   int deleteEmployee(int empid);
+
+  int registEmployee(Map<String, Object> employee);
 }
