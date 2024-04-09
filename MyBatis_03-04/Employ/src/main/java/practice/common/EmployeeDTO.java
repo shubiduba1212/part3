@@ -14,11 +14,11 @@ public class EmployeeDTO {
   private int managerId;
   private String hireDate;
   private String entDate;
-  private char entYear;
+  private String entYear;
 
   public EmployeeDTO(){}
 
-  public EmployeeDTO(int id, String name, String empCode, String email, int phone, String depCode, String jobCode, String salLevel, int salary, String bonus, int managerId, String hireDate, String entDate, char entYear) {
+  public EmployeeDTO(int id, String name, String empCode, String email, int phone, String depCode, String jobCode, String salLevel, int salary, String bonus, int managerId, String hireDate, String entDate, String entYear) {
     this.id = id;
     this.name = name;
     this.empCode = empCode;
@@ -139,11 +139,11 @@ public class EmployeeDTO {
     this.entDate = entDate;
   }
 
-  public char getEntYear() {
+  public String getEntYear() {
     return entYear;
   }
 
-  public void setEntYear(char entYear) {
+  public void setEntYear(String entYear) {
     this.entYear = entYear;
   }
 
