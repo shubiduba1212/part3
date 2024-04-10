@@ -9,11 +9,6 @@ import java.util.Scanner;
 public class Application {
 
   public static void main(String[] args) {
-//    1. 직원전체조회
-//    2. 직원상세조회
-//    3. 직원추가
-//    4. 직원정보수정
-//    5. 직원탈퇴
 
     MenuService menuService = new MenuService();
 
@@ -84,9 +79,6 @@ public class Application {
 
     parameter.put("id", id);
     parameter.put("name", name);
-//    parameter.put("empCode", empCode);
-//    parameter.put("email", email);
-//    parameter.put("phone", phone);
 
     return parameter;
   }
