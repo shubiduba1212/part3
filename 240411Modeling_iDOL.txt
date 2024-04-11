@@ -1,0 +1,41 @@
+*테이블 2개
+
+MENU DB- TBL_MENU/ TBL_CATEGORY()
+EMPLOYEE DB- DEPARTMENT/ EMPLOYEE
+
+모델링 주제 :
+
+아이돌 - 
+그룹/각 그룹내 아이돌 정보
+
+DB 명 : ENTERTAINMENT DB
+테이블명 : GROUP  
+컬럼명(PK) : GROUP_CODE -코드/ 1, 2, 3,...
+컬러명 : GROUP_NAME 그룹명
+컬럼명 : GROUP_COUNT 그룹인원
+컬럼명 : ENT_NAME 소속사  ex )1 - SM / 2 - YG / 3 - JYP / 4 - HIVE / 5 - OHJIRAFFERS(1)
+컬럼명 : HITSONG 히트곡명
+컬럼명 : FANDUM_NAME 팬덤명
+컬럼명 : DEB_YEAR 데뷔연도
+컬럼명 : DIS_YEAR 해체연도
+컬럼명 : DIS_YN 해체여부(Y/N)
+
+테이블명 : HITSONG
+컬럼명(FK) : GROUP_CODE
+컬럼명 : HIT_NAME 히트곡명
+컬럼명 : HIT_YEAR 히트연도
+컬럼명 : ALBUM_NAME 앨범명
+컬럼명 : TITLE_YN 타이틀곡 여부(Y/N)
+
+ALTER TABLE employee MODIFY EMP_ID INT NOT NULL AUTO_INCREMENT;
+
+
+
+
+
+
+
+
+
+
+
