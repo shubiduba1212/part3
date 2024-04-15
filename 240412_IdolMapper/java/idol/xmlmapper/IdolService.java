@@ -1,5 +1,6 @@
 package idol.xmlmapper;
 
+import idol.common.HitSongAndIdolDTO;
 import idol.common.IdolDTO;
 import org.apache.ibatis.session.SqlSession;
 
@@ -98,6 +99,52 @@ public class IdolService {
       sqlSession.commit();
     } else {
       System.out.println("IDOL ARCHIVE 정보 삭제에 실패했습니다🤷‍♀️🤷‍♂️");
+      sqlSession.rollback();
+    }
+    sqlSession.close();
+  }
+
+
+  public void selectAllHitSong(Map<String, Object> searchInfo) {
+    SqlSession sqlSession = getSqlSession();
+    IdolMapper idolMapper = sqlSession.getMapper(IdolMapper.class);
+
+    List<HitSongAndIdolDTO> hitSongAndIdolDTOList = idolMapper.selectAllHitSong(searchInfo);
+
+    if (hitSongAndIdolDTOList != null && hitSongAndIdolDTOList.size() > 0) {
+      System.out.println("🎊IDOL 히트콕 검색에 성공했습니다 : ");
+      System.out.println("-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
+      for (HitSongAndIdolDTO hitsong : hitSongAndIdolDTOList) {
+        System.out.println(hitsong);
+        System.out.println("-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
+      }
+    } else {
+      System.out.println("IDOL 히트콕 검색에 실패했습니다🤷‍♀️🤷‍♂️");
+    }
+    sqlSession.close();
+  }
+
+  public void insertNewHitSong(Map<String, Object> newHitInfo) {
+    SqlSession sqlSession = getSqlSession();
+
+    IdolMapper idolMapper = sqlSession.getMapper(IdolMapper.class);
+
+    int result = idolMapper.insertNewHitSong(newHitInfo);
+    int result2 = idolMapper.insertNewHitSong2(newHitInfo);
+
+    if (result > 0) {
+      System.out.println("🎊IDOL ARCHIVE 히트곡 신규 추가에 성공했습니다");
+      sqlSession.commit();
+    } else {
+      System.out.println("IDOL ARCHIVE 히트곡 신규 추가에 실패했습니다🤷‍♀️🤷‍♂️");
+      sqlSession.rollback();
+    }
+
+    if (result2 > 0) {
+      System.out.println("🎊IDOL ARCHIVE 히트곡 업데이트에 성공했습니다");
+      sqlSession.commit();
+    } else {
+      System.out.println("IDOL ARCHIVE 히트곡 업데이트에 실패했습니다🤷‍♀️🤷‍♂️");
       sqlSession.rollback();
     }
     sqlSession.close();
