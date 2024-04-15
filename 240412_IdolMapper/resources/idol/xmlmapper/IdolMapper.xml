@@ -93,4 +93,64 @@
             </if>
         </where>
     </delete>
+    
+    <resultMap id="idolAndHitSongResultMap" type="idol.common.HitSongAndIdolDTO">
+        <id property="hitCode" column="HIT_CODE"/>
+        <result property="hitName" column="HIT_NAME"/>
+        <result property="groupCode" column="GROUP_CODE"/>
+        <result property="groupName" column="GROUP_NAME"/>
+        <result property="hitYear" column="HIT_YEAR"/>
+        <result property="albumName" column="ALBUM_NAME"/>
+        <result property="titleYn" column="TITLE_YN"/>
+<!--        <association property="groupName" resultMap="idolResultMap2"/>-->
+    </resultMap>
+<!--    <resultMap id="idolResultMap2" type="idol.common.IdolDTO">-->
+<!--        <id property="groupCode" column="GROUP_CODE"/>-->
+<!--        <result property="groupName" column="GROUP_NAME"/>-->
+<!--    </resultMap>-->
+    <select id="selectAllHitSong" parameterType="hashmap" resultMap="idolAndHitSongResultMap">
+        SELECT
+              A.HIT_CODE,
+              A.HIT_NAME,
+              B.GROUP_NAME,
+              A.HIT_YEAR,
+              A.ALBUM_NAME,
+              A.TITLE_YN
+         FROM HITSONG A
+         JOIN IDOL_GROUP B ON (A.GROUP_CODE = B.GROUP_CODE)
+        <if test="searchCondition != null and searchCondition != ''">
+            <where>
+                <if test="searchCondition == 'groupCode'">
+                    A.GROUP_CODE = #{ searchItem }
+                </if>
+                <if test="searchCondition == 'groupName'">
+                    B.GROUP_NAME LIKE CONCAT('%', #{ searchItem }, '%')
+                </if>
+                <if test="searchCondition == 'hitSong'">
+                    A.HIT_NAME LIKE CONCAT('%', #{ searchItem }, '%')
+                </if>
+            </where>
+        </if>
+    </select>
+    <insert id="insertNewHitSong" parameterType="hashmap">
+        INSERT INTO HITSONG
+        (
+        HIT_NAME,
+        HIT_YEAR,
+        ALBUM_NAME,
+        TITLE_YN
+        )
+        VALUES(
+        #{ hitName },
+        #{ hitYear },
+        #{ albumName },
+        #{ titleYn }
+        )
+    </insert>
+    <update id="insertNewHitSong2" parameterType="hashmap">
+        UPDATE IDOL_GROUP
+           SET
+               HITSONG = #{ HIT_NAME }
+         WHERE GROUP_NAME LIKE CONCAT('%', #{ groupName }, '%')
+    </update>
 </mapper>
