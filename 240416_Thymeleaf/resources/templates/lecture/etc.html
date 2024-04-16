@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ETC</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/common.css}">
+</head>
+<body>
+    <h1 align="center">ETC</h1>
+    <h2>th:with</h2>
+    <h3>지역변수를 지정해서 쓸 수 있다.</h3>
+    <th:block th:with="start = ${selectCriteria.startPage}, last=${selectCriteria.endPage}">
+        <th:block th:each="no : ${#numbers.sequence(start, last)}">
+            <th:block th:if="${selectCriteria.pageNo eq no}">
+                <button th:text="${no}" disabled></button>
+            </th:block>
+            <th:block th:if="${selectCriteria.pageNo ne no}">
+                <button th:text="${no}"></button>
+            </th:block>
+        </th:block>
+    </th:block>
+</body>
+</html>
