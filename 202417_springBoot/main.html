@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main</title>
+</head>
+<body>
+    <h1>파일 업로드 하기</h1>
+    <h3>single file 업로드하기</h3>
+    <form action="single-file" method="post" enctype="multipart/form-data">
+    <!--  encoding해야 파일 이미지 해상도가 깨지지 않는다.  -->
+        파일 : <input type="file" name="singleFile" class="real-upload"><br>
+        파일 설명 : <input type="text" name="singleFileDescription"><br>
+    <!--        파일 이미지 : <img src="" alt="">-->
+        <input type="submit">
+    </form>
+    <h3>multi file 업로드하기</h3>
+    <form action="multi-file" method="post" enctype="multipart/form-data">
+        파일 : <input type="file" name="multiFile" multiple><br>
+        파일 설명 : <input type="text" name="multiFileDescription"><br>
+        <input type="submit">
+    </form>
+<!--    <script>-->
+<!--        const input = document.querySelector(".real-upload");-->
+<!--        const getImageFiles = (e) => {-->
+<!--            const files = e.currentTarget.files;-->
+<!--            console.log(files);-->
+<!--        }-->
+<!--    </script>-->
+</body>
+</html>
