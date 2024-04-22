@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Modify</title>
+</head>
+<body>
+    <h1>메뉴 수정</h1>
+    <form action="/menu/modify" method="post">
+        <label>
+            수정할 메뉴 코드 : <input type="number" name="code">
+        </label><br>
+        <p> 수정 사항 </p>
+        <label>메뉴 이름 : <input type="text" name="name"></label><br>
+        <label>메뉴 가격 : <input type="number" name="price"></label><br>
+        <label>메뉴 카테고리 코드 : </label>
+        <select name="categoryCode" id="categoryCode"></select><br>
+        <label>메뉴 주문 가능 상태 :</label>
+        <select name="orderableStatus">
+            <option value="Y">Y</option>
+            <option value="N">N</option>
+        </select><br>
+        <input type="submit" value="수정하기">
+    </form>
+    <script>
+        fetch("/menu/category")
+            .then(res => res.json())
+            .then(data => {
+                const $categoryCode = document.getElementById("categoryCode");
+                for (let index in data) {
+                    const $option = document.createElement("option");
+                    $option.value = data[index].code;
+                    $option.textContent = data[index].name;
+                    $categoryCode.appendChild($option);
+                }
+            })
+    </script>
+</body>
+</html>
