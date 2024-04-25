@@ -29,10 +29,12 @@ public class MenuService {
     menuMapper.registNewMenu(newMenu);
   }
 
+  @Transactional
   public void modifyMenu(MenuDTO modifyMenu) {
     menuMapper.modifyMenu(modifyMenu);
   }
 
+  @Transactional
   public void deleteMenu(MenuDTO deleteMenu) {
     menuMapper.deleteMenu(deleteMenu);
   }
