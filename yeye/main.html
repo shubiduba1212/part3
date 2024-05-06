@@ -4,8 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/default.css">
-  <link rel="stylesheet" href="./css/user/common.css">
+  <link rel="stylesheet" href="./css/user/common.css">  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
   <link rel="stylesheet" href="./css/user/main.css">
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>  
   <title>YESINYERANG</title>
 </head>
 <body>
@@ -16,13 +18,25 @@
         <a href="#" class="logo">
           <img src="./images/common/logo.svg" alt="YESINYERANG logo">
         </a>
-        <nav class="header_gnb">
-          <ul>
-            <li><a href="#">예피셜</a></li>
-            <li><a href="#">예수다</a></li>
+        <nav>
+          <ul class="header_gnb">
+            <li>
+              <a href="#">예피셜</a>
+              <ul class="sub_menu">
+                <li><a href="#">공지사항</a></li>
+                <li><a href="#">매거진</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">예수다</a>
+              <ul class="sub_menu">
+                <li><a href="#">예신</a></li>
+                <li><a href="#">예랑</a></li>
+              </ul>
+            </li>
             <li><a href="#">예리뷰</a></li>
           </ul>
-          <ul>
+          <ul class="right_menu">
             <li><a href="#">글쓰기</a></li>
             <li><a href="#">로그인</a></li>
           </ul>
@@ -95,6 +109,20 @@
       <!-- 예리뷰 -->
       <div class="review_cont">
         <p class="sec_tit">예리뷰</p>
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">Slide 1</div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+          </div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
       </div>
       <!-- //review_cont -->
 
@@ -176,5 +204,7 @@
     </div>
     <!-- //FOOTER -->
   </div>
+  <script src="./js/common.js"></script>
+  <script src="./js/main.js"></script>
 </body>
 </html>
