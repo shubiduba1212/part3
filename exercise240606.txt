@@ -717,3 +717,6 @@ if __name__ =="__main__":
 
 https://github.com/suhyunjeon/k8s-wordpress/
 
+kubesystem > etcd 관련 개념음 if카카오 / 카카오 개발블로그 참고
+kube-system의 오브젝트 api 종류와 각 api의 역할 및 기능에 대해 알고 있어야한다.
+
