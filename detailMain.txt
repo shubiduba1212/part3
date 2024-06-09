@@ -1,0 +1,521 @@
+import 'dart:async';
+
+import 'package:chap04_flutter_api/const/colors.dart';
+import 'package:chap04_flutter_api/screen/onboarding/onboarding.dart';
+import 'package:chap04_flutter_api/widget/navigationbar.dart';
+import 'package:flutter/material.dart';
+import 'package:http/http.dart' as http;
+import 'dart:convert';
+
+class DetailMain extends StatefulWidget {
+  const DetailMain({super.key});
+
+  @override
+  State<DetailMain> createState() => _DetailMainState();
+}
+
+class _DetailMainState extends State<DetailMain> {
+  int currentPageIndex = 0;
+
+  //즐겨찾기 버튼 클릭 기본값 설정
+  static bool ActivateFavorite = false;
+
+  //주민 상세 설명 활성화
+  static bool showDetail = false;
+
+  // test() async {
+  //   final String result = await getInfo();
+  //   print('result from test : $result');
+  // }
+
+  // villager Data
+  List? data;
+
+  @override
+  void initState() {
+    super.initState();
+    getInfo();
+    print(getInfo());
+    data = new List.empty(growable: true);
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    //getInfo();
+    print(data);
+
+    // String result = test();
+    // 기기 화면 width
+    double screenWidth = MediaQuery.of(context).size.width;
+    double screenHeight = MediaQuery.of(context).size.height;
+    return Scaffold(
+      appBar: AppBar(
+        centerTitle: true,
+        title: Text(
+          'SOOPCHIVE',
+          style: TextStyle(
+              color: logoYellow,
+              fontFamily: 'Mongddole',
+              fontSize: 20,
+              fontWeight: FontWeight.w600),
+        ),
+        backgroundColor: mainGreen,
+      ),
+      bottomNavigationBar: bottomNavigator(currentPageIndex),
+      body: SafeArea(
+        child: SingleChildScrollView(
+          child: Container(
+              width: double.infinity,
+              padding: EdgeInsets.all(20.0),
+              child: Column(
+                children: [
+                  Container(
+                    width: double.infinity,
+                    padding: EdgeInsets.all(20.0),
+                    //color: yellow,
+                    decoration: BoxDecoration(
+                        color: yellow,
+                        borderRadius: BorderRadius.all(Radius.circular(20.0)),
+                        boxShadow: [
+                          BoxShadow(offset: const Offset(4, 4), color: brown)
+                        ]),
+                    child: Column(
+                      children: [
+                        // Text(result),
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.end,
+                          children: [
+                            InkWell(
+                              child: Image.asset(
+                                !ActivateFavorite
+                                    ? 'assets/images/favorites_active.png'
+                                    : 'assets/images/favorites_inactive.png',
+                                width: 30,
+                                height: 30,
+                              ),
+                              onTap: () {
+                                setState(() {
+                                  ActivateFavorite = !ActivateFavorite;
+                                  //print('현재 버튼 클릭 상태 : $ActivateFavorite');
+                                });
+                              },
+                            ), //즐겨찾기 버튼 영역
+                          ],
+                        ),
+                        SizedBox(
+                          height: 20,
+                        ),
+                        Text(
+                          '아잠만',
+                          style: TextStyle(
+                              fontFamily: 'Monggle',
+                              fontSize: 28,
+                              fontWeight: FontWeight.w700,
+                              color: white),
+                        ), // 주민 이름
+                        SizedBox(
+                          height: 20,
+                        ),
+                        CircleAvatar(
+                          radius: 120,
+                          backgroundColor: Colors.white,
+                          child: Image.asset(
+                            'assets/images/camp.png',
+                          ),
+                        ), // 주민 이미지
+                        SizedBox(
+                          height: 20,
+                        ),
+                        Container(
+                          height: (screenHeight - 458) * 0.6,
+                          child: showDetail == false
+                              ? Column(
+                                  children: [
+                                    Row(
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.spaceBetween,
+                                      children: [
+                                        Container(
+                                          width: (screenWidth - 80) * 0.3,
+                                          alignment: Alignment.center,
+                                          child: Text(
+                                            '성별',
+                                            style: TextStyle(
+                                                fontSize: 16,
+                                                fontFamily: 'beomseok',
+                                                fontWeight: FontWeight.w500,
+                                                color: white),
+                                          ),
+                                        ),
+                                        Text(
+                                          ':',
+                                          style: TextStyle(
+                                              fontSize: 16,
+                                              fontFamily: 'beomseok',
+                                              fontWeight: FontWeight.w500,
+                                              color: white),
+                                        ),
+                                        Container(
+                                          width: (screenWidth - 80) * 0.68,
+                                          alignment: Alignment.center,
+                                          child: Image.asset(
+                                            'assets/images/Male.png',
+                                            width: 30,
+                                            height: 30,
+                                          ),
+                                        ) // 성별
+                                      ],
+                                    ),
+                                    SizedBox(
+                                      height: 10,
+                                    ),
+                                    Row(
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.spaceBetween,
+                                      children: [
+                                        Container(
+                                          width: (screenWidth - 80) * 0.3,
+                                          alignment: Alignment.center,
+                                          child: Text(
+                                            '종족',
+                                            style: TextStyle(
+                                                fontSize: 16,
+                                                fontFamily: 'beomseok',
+                                                fontWeight: FontWeight.w500,
+                                                color: white),
+                                          ),
+                                        ),
+                                        Text(
+                                          ':',
+                                          style: TextStyle(
+                                              fontSize: 16,
+                                              fontFamily: 'beomseok',
+                                              fontWeight: FontWeight.w500,
+                                              color: white),
+                                        ),
+                                        Container(
+                                          width: (screenWidth - 80) * 0.68,
+                                          alignment: Alignment.center,
+                                          child: Text(
+                                            '오리',
+                                            style: TextStyle(
+                                                fontSize: 16,
+                                                fontFamily: 'beomseok',
+                                                fontWeight: FontWeight.w500,
+                                                color: white),
+                                          ),
+                                        ), // 종족
+                                      ],
+                                    ),
+                                    SizedBox(
+                                      height: 10,
+                                    ),
+                                    Row(
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.spaceBetween,
+                                      children: [
+                                        Container(
+                                          width: (screenWidth - 80) * 0.3,
+                                          alignment: Alignment.center,
+                                          child: Text(
+                                            '성격',
+                                            style: TextStyle(
+                                                fontSize: 16,
+                                                fontFamily: 'beomseok',
+                                                fontWeight: FontWeight.w500,
+                                                color: white),
+                                          ),
+                                        ),
+                                        Text(
+                                          ':',
+                                          style: TextStyle(
+                                              fontSize: 16,
+                                              fontFamily: 'beomseok',
+                                              fontWeight: FontWeight.w500,
+                                              color: white),
+                                        ),
+                                        Container(
+                                          width: (screenWidth - 80) * 0.68,
+                                          alignment: Alignment.center,
+                                          child: Text(
+                                            '먹보',
+                                            style: TextStyle(
+                                                fontSize: 16,
+                                                fontFamily: 'beomseok',
+                                                fontWeight: FontWeight.w500,
+                                                color: white),
+                                          ),
+                                        ), // 성별
+                                      ],
+                                    ),
+                                    SizedBox(
+                                      height: 10,
+                                    ),
+                                    Row(
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.spaceBetween,
+                                      children: [
+                                        Container(
+                                          width: (screenWidth - 80) * 0.3,
+                                          alignment: Alignment.center,
+                                          child: Text(
+                                            '생일',
+                                            style: TextStyle(
+                                                fontSize: 16,
+                                                fontFamily: 'beomseok',
+                                                fontWeight: FontWeight.w500,
+                                                color: white),
+                                          ),
+                                        ),
+                                        Text(
+                                          ':',
+                                          style: TextStyle(
+                                              fontSize: 16,
+                                              fontFamily: 'beomseok',
+                                              fontWeight: FontWeight.w500,
+                                              color: white),
+                                        ),
+                                        Container(
+                                          width: (screenWidth - 80) * 0.68,
+                                          alignment: Alignment.center,
+                                          child: Text(
+                                            '06월 30일',
+                                            style: TextStyle(
+                                                fontSize: 16,
+                                                fontFamily: 'beomseok',
+                                                fontWeight: FontWeight.w600,
+                                                color: white),
+                                          ),
+                                        ), // 생일
+                                      ],
+                                    ),
+                                    SizedBox(
+                                      height: 10,
+                                    ),
+                                    Row(
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.spaceBetween,
+                                      children: [
+                                        Container(
+                                          width: (screenWidth - 80) * 0.3,
+                                          alignment: Alignment.center,
+                                          child: Text(
+                                            '별자리',
+                                            style: TextStyle(
+                                                fontSize: 16,
+                                                fontFamily: 'beomseok',
+                                                fontWeight: FontWeight.w500,
+                                                color: white),
+                                          ),
+                                        ),
+                                        Text(
+                                          ':',
+                                          style: TextStyle(
+                                              fontSize: 16,
+                                              fontFamily: 'beomseok',
+                                              fontWeight: FontWeight.w500,
+                                              color: white),
+                                        ),
+                                        Container(
+                                          width: (screenWidth - 80) * 0.68,
+                                          alignment: Alignment.center,
+                                          child: Text(
+                                            '게자리',
+                                            style: TextStyle(
+                                                fontSize: 16,
+                                                fontFamily: 'beomseok',
+                                                fontWeight: FontWeight.w500,
+                                                color: white),
+                                          ),
+                                        ), // 별자리
+                                      ],
+                                    ),
+                                    SizedBox(
+                                      height: 10,
+                                    ),
+                                    Row(
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.spaceBetween,
+                                      children: [
+                                        Container(
+                                          width: (screenWidth - 80) * 0.3,
+                                          alignment: Alignment.center,
+                                          child: Text(
+                                            '말버릇',
+                                            style: TextStyle(
+                                                fontSize: 16,
+                                                fontFamily: 'beomseok',
+                                                fontWeight: FontWeight.w500,
+                                                color: white),
+                                          ),
+                                        ),
+                                        Text(
+                                          ':',
+                                          style: TextStyle(
+                                              fontSize: 16,
+                                              fontFamily: 'beomseok',
+                                              fontWeight: FontWeight.w500,
+                                              color: white),
+                                        ),
+                                        Container(
+                                          width: (screenWidth - 80) * 0.68,
+                                          alignment: Alignment.center,
+                                          child: Text(
+                                            '꽥꽥',
+                                            style: TextStyle(
+                                                fontSize: 16,
+                                                fontFamily: 'beomseok',
+                                                fontWeight: FontWeight.w500,
+                                                color: white),
+                                          ),
+                                        ), // 말버릇
+                                      ],
+                                    ),
+                                    SizedBox(
+                                      height: 10,
+                                    ),
+                                    Row(
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.spaceBetween,
+                                      children: [
+                                        Container(
+                                          width: (screenWidth - 80) * 0.3,
+                                          alignment: Alignment.center,
+                                          child: Text(
+                                            '좋아하는 말',
+                                            style: TextStyle(
+                                                fontSize: 16,
+                                                fontFamily: 'beomseok',
+                                                fontWeight: FontWeight.w500,
+                                                color: white),
+                                          ),
+                                        ),
+                                        Text(
+                                          ':',
+                                          style: TextStyle(
+                                              fontSize: 16,
+                                              fontFamily: 'beomseok',
+                                              fontWeight: FontWeight.w500,
+                                              color: white),
+                                        ),
+                                        Container(
+                                          width: (screenWidth - 80) * 0.68,
+                                          alignment: Alignment.center,
+                                          child: Text(
+                                            '코흘리개도 어른이 된다',
+                                            style: TextStyle(
+                                                fontSize: 16,
+                                                fontFamily: 'beomseok',
+                                                fontWeight: FontWeight.w500,
+                                                color: white),
+                                          ),
+                                        ), // 좋아하는 말
+                                      ],
+                                    ),
+                                  ],
+                                )
+                              : Text(
+                                  explanation,
+                                  style: TextStyle(
+                                      color: white,
+                                      fontSize: 16,
+                                      fontFamily: 'beomseok',
+                                      fontWeight: FontWeight.w500),
+                                ),
+                        ),
+                        // 주민 프로필 정보
+                      ],
+                    ),
+                  ), // detail profile section
+                  SizedBox(
+                    height: 40,
+                  ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      TextButton(
+                          onPressed: () {
+                            setState(() {
+                              showDetail = false;
+                            });
+                          },
+                          child: Container(
+                            height: 40,
+                            padding: EdgeInsets.symmetric(horizontal: 40.0),
+                            alignment: Alignment.center,
+                            decoration: BoxDecoration(
+                                color: yellow,
+                                borderRadius:
+                                    BorderRadius.all(Radius.circular(40.0)),
+                                boxShadow: [
+                                  BoxShadow(
+                                      offset: const Offset(4, 4), color: brown)
+                                ]),
+                            child: Text(
+                              '이전',
+                              style: TextStyle(
+                                  color: white,
+                                  fontFamily: 'Monggle',
+                                  fontSize: 16),
+                            ),
+                          )),
+                      showDetail == false
+                          ? TextButton(
+                              onPressed: () {
+                                setState(() {
+                                  showDetail = !showDetail;
+                                });
+                              },
+                              child: Container(
+                                height: 40,
+                                padding: EdgeInsets.symmetric(horizontal: 40.0),
+                                alignment: Alignment.center,
+                                decoration: BoxDecoration(
+                                    color: mainGreen,
+                                    borderRadius:
+                                        BorderRadius.all(Radius.circular(40.0)),
+                                    boxShadow: [
+                                      BoxShadow(
+                                          offset: const Offset(4, 4),
+                                          color: darkGreen)
+                                    ]),
+                                child: Text(
+                                  '다음',
+                                  style: TextStyle(
+                                      color: white,
+                                      fontFamily: 'Monggle',
+                                      fontSize: 16),
+                                ),
+                              ))
+                          : Text(''),
+                    ],
+                  ),
+                ],
+              )),
+        ),
+      ),
+    );
+  }
+
+  // api
+  Future<String> getInfo() async {
+    var url = 'https://api.nookipedia.com/villagers';
+    var response = await http.get(Uri.parse(url),
+        headers: {"X-API-KEY": "1e12770e-930f-4f94-8bf2-7dd37587e30b"});
+    setState(() {
+      // var dataConvertedToJSON = json.decode(response.body);
+      // String result = dataConvertedToJSON[20];
+
+      // data!.addAll(result);
+      print('setState');
+    });
+
+    var dataConvertedToJSON = json.decode(response.body);
+    String result = dataConvertedToJSON[20];
+    //return response.body;
+    return result;
+  }
+
+  String explanation =
+      ' 아잠만은 동물의 숲 시리즈의 먹보 오리 입니다.아잠만은 자연을 좋아하는 취미를 가지고 있으며, 꽃, 벌레, 물고기 또는 화석에 대해 공부하고 있는 아이템에 대한 책을 읽고 있을 수 있습니다. 그의 영어 이름은 오리의 물갈퀴 발에서 유래한 "web"이라는 단어를 이용한 말장난입니다. 그의 영어 말버릇, "quaa,"는 오리의 울음소리 "quack"을 따라한 말장난입니다. ';
+}
