@@ -1,0 +1,44 @@
+프로그래밍 상에서의 클래스란?
+-객체가 가져야 하는 속성과 기능을 정의한 내용을 담고 있는 설계도 역할
+
+프로그래밍 상에서의 객체란?
+-클래스가 정의된 후 메모리상에 할당되었을 때 이를 객체라고 함
+
+프로그래밍 상에서의 인스턴스란?
+-클래스를 기반으로 생성 됨
+-클래스의 속성과 기능을 똑같이 가지고 있고 프로그래밍 상에서 사용되는 대상
+
+BuildContext
+"A handle to the loaction of a widget in the widget tree."
+widget tree에서 현재 widget의 위치를 알 수 있는 정보
+이 BuildContext는 stateless위젯이나 state 빌드 메서드에 의해서 리턴 된 위젯의 부모가 된다
+
+(BuildContext context)에서
+context는 BuildContext 클래스의 인스턴스
+
+https://medium.com/flutter-community/flutter-layout-cheat-sheet-5363348d037e
+
+모든 위젯은 build 메소드(함수)를 갖고 있다.
+
+https://pub.dev/packages/push
+
+$ flutter build apk --release --target-platform=android-arm64
+$ flutter build apk --debug --target-platform=android-arm64
+
+push FCM 원리 이해에 도움이 되는 글
+https://tech.junhabaek.net/%EB%B0%B1%EC%97%94%EB%93%9C-%EC%84%9C%EB%B2%84-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98-presentation-layer-3-%EC%9D%91%EB%8B%B5-%EC%9C%A0%ED%98%95%EC%97%90-%EB%94%B0%EB%A5%B8-variation-2-push-notification-1eacb4df4a7e
+
+push notification with FCM 코딩 강의
+https://www.youtube.com/watch?v=k0zGEbiDJcQ
+
+flutter 보안 리스크 방지를 위한 10가지 팁(23.01.20)
+https://www.appsealing.com/kr/flutter-%EB%B3%B4%EC%95%88-%EB%B3%B4%EC%95%88-%EB%A6%AC%EC%8A%A4%ED%81%AC-%EB%B0%A9%EC%A7%80%EB%A5%BC-%EC%9C%84%ED%95%9C-10%EA%B0%80%EC%A7%80-%ED%8C%81/
+
+flutter로 앱을 만들며 헤맸던 부분(20.01.20)
+https://changjoopark.medium.com/flutter-%EB%A1%9C-%EC%95%B1%EC%9D%84-%EB%A7%8C%EB%93%A4%EB%A9%B4%EC%84%9C-%ED%97%A4%EB%A7%B8%EB%8D%98-%EA%B2%83%EB%93%A4-f8756457c2a6
+
+23/08/07 - 코딩셰프 조금 매운맛 강좌8
+factory - 특정 클래스를 사용하여 직접 인스턴스를 만드는 것이 아니라, 
+argument를 통해서 JSON데이터가 넘어오면 알아서 특정 클래스의 인스턴스를 생성해서 리턴해주는 역할을 한다.
+
+https://velog.io/@jinyoungchoi95/JWTJson-Web-Token-%EC%9D%B8%EC%A6%9D%EB%B0%A9%EC%8B%9D
