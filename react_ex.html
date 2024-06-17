@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script crossorigin src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <title>React Exercise</title>
+  <style>
+    *{margin:0; padding:0; box-sizing: border-box;}  
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="text/babel">
+    const { useState } = React;
+
+    function ToDoListComponent(){
+
+      //style
+      const styleHeader = {display:'flex', alignItems : 'center', justifyContent:'center', backgroundColor : '#000000', height: 70, color: '#ffffff', textAlign : 'center', fontSize: 20, fontWeight:800,};
+
+      const styleMain = {display:'flex', alignItems : 'center', flexDirection:'column', height:'calc(100vh - 140px)', padding: 20,backgroundColor:'#ffe5e5', textAlign:'center'}
+
+      const styleListContainer = {marginTop:20, padding : 20, width: '80%', height:'100%', backgroundColor:'rgba(255,255,255, 0.7)'};
+
+      const styleUl = {display:'flex', alignItems : 'flex-start', flexDirection:'column', width: 200, marginLeft:'auto', marginRight:'auto'};
+
+      const styleAddBtn = {height:30, marginLeft : 10, paddingLeft:10, paddingRight : 10, outline:'none', fontSize:12, color : '#ffffff', backgroundColor : 'yellowgreen', border:'none', borderRadius : 10, };
+
+      const styleFooter = {display:'flex', alignItems : 'center', justifyContent:'center', backgroundColor : '#000000', height: 70, color: '#ffffff', textAlign : 'center', fontSize: 12, fontWeight:500,};
+
+      const styleLi = {display:'flex', alignItems : 'center', justifyContent:'center', paddingBottom:10, listStyle:'none',textDecoration: 'none', fontSize : 12,};
+
+      const styleRemoveBtn = { width: 16, height: 16, marginLeft:10, fontSize:12, fontWeight: 500, lineHeight:'14px', color:'#ffffff', backgroundColor :'#ff0000', borderRadius:'50%', cursor: 'pointer'};
+
+      // toDo list 구조 분해 할당 및 초기값 설정
+      const [toDo, setToDo] = useState([
+        {id : 1, doText : '할일 목록을 추가할 것'}
+      ]);
+      
+      // 추가할 항목 입력 관련 구조 분해 할당 및 초기값 설정
+      const [inputText, setInputText] = useState('');
+
+      // 추가할 항목 id 관련 구조 분해 할당 및 초기값 설정
+      const [nextId, setNextId] = useState(2);
+
+      // 추가할 항목을 input태그 내 입력했을 때 input에 입력한 value로 state 변경
+      const onChangeHandler = e => setInputText(e.target.value);
+      
+      // 추가하기 버튼 클릭
+      const onClickHandler = () => {
+        
+        console.log(toDo)
+        if(inputText == undefined || inputText == ''){
+            alert('오늘 할 일을 추가해주세요.');            
+        } else {
+          const changedList = toDo.concat({
+            id : nextId,
+            doText : inputText
+          });
+          setNextId(nextId + 1);
+          setToDo(changedList);
+          setInputText('');
+        }
+        
+      };
+
+      // 해당 ToDo리스트 checkbox 클릭시 해당 항목 리스트 line생성
+      const onCheck = e => {
+        // console.log('e.target : '+e.target); 
+        // console.log('e.target.checked : '+e.target.checked);
+        // console.log('after setCheckedBox : '+checkedBox);
+        // console.log('e.target.next : '+e.target.nextSibling);
+        e.target.checked == false ? e.target.nextSibling.style.textDecoration = "none" : e.target.nextSibling.style.textDecoration = "line-through";
+      };
+
+      // 
+
+      // ToDo리스트에서 x버튼 클릭
+      const removeItem = id => {   
+        console.log('current clicked id : ' + id);
+        const changedList = toDo.filter(list => list.id !== id);
+        console.log(`changedList after filter : `+ changedList);
+        setToDo(changedList);
+        console.log(`setToDo : `+ setToDo(changedList));
+      };
+
+      // ToDo리스트 <li>태그
+      const toDoList = toDo.map(
+        doItem => 
+        <li          
+          style={styleLi}
+          key={doItem.id}
+        >
+          <input type="checkbox" onClick={onCheck}/>
+          <p style={{paddingLeft :10}} key={doItem.id}>{doItem.doText}</p>
+          <span style={styleRemoveBtn}
+                onClick={() => removeItem(doItem.id)}
+          >x</span>
+        </li>
+        );
+
+        return(
+          <>
+            <div style={{margin:0, padding:0}}>
+          
+              <header style={styleHeader}>오늘의 할일!{new Date().toLocaleDateString()}</header>
+
+              <div style={styleMain}>
+                <h5>ToDo-List</h5>
+                <div style={styleListContainer}>
+                  <ul style={styleUl}>{toDoList}</ul>
+                </div>
+
+                <div style={{marginTop : 20}}>
+                  <input 
+                    type="text" 
+                    style={{height: 30, paddingLeft: 10}}
+                    name="toDoList"
+                    value={inputText}
+                    onChange={onChangeHandler}
+                  />
+                  <button 
+                    style={styleAddBtn}
+                    onClick={onClickHandler}
+                  >추가하기</button>
+                </div>
+              </div>
+
+              <footer style={styleFooter}>Copyright 2024.team-ohgiraffers all rights reserved.</footer>
+            </div>
+          </>
+        );
+    }
+
+    ReactDOM.createRoot(document.getElementById('root')).render(<ToDoListComponent/>);
+  </script>
+</body>
+</html>
