@@ -1,0 +1,34 @@
+@charset 'UTF-8';
+
+.flex_start {display: flex; align-items: center;}
+.flex_center {display: flex; justify-content: center; align-items: center;}
+.flex_between {display: flex; justify-content: space-between; align-items: center;}
+.flex_end {display: flex; justify-content: flex-end; align-items: center;}
+
+.wrapper{display: flex;flex-direction: column;align-items: center; width: 100%; background-color: #fff;}
+.contents_cont {width: 100%; min-height: calc(100vh - 180px);}
+.hot_sec {width: 100%; max-width: 1200px; height: 300px; padding: 0 20px;}
+.ticket_shape_cont {width: 100%; height: 100%; }
+.ticket_shape_cont .left_shape {width: 26%; height: 100%;background-color: var(--main-color); font-size: 48px; font-weight: 800; text-align: center;border-radius: 20px;}
+.ticket_shape_cont .left_shape p { color: #ffffff; }
+/* .cutting_line {height: 100%; margin-left: -5px; background-color: var(--main-color); border-left: 10px dashed #ffffff;} */
+.cutting_line {height: 100%; margin-left: -10px; z-index: 10;}
+.cutting_line li {width: 10px; height: calc(100% / 8 - 16px); background-color: var(--main-color); border-radius:10px; margin-top: 10px;}
+.ticket_shape_cont .right_shape {position: relative; width: 74%; height: 100%; margin-left:-4px; background-color: #fff; border: 1px solid var(--main-color); border-radius:20px; overflow: hidden;}
+.hot_list {width: 100%; height: 300px; padding: 20px; }
+.hot_list li {width: calc(100% / 3 - 20px); align-self: stretch;}
+.hot_list li a {display: block; height: 100%; border-radius:20px; border: 1px solid var(--main-color); overflow: hidden;}
+.hot_list img {width: 100%; height: 150px; object-fit: cover;}
+.right_shape .prev_btn, .right_shape .next_btn {position: absolute; top: 50%; transform: translateY(-50%); z-index: 10; width: 40px; height: 40px; background-color: rgba(255, 183, 85, 0.7); border-radius:50%; cursor: pointer;}
+.right_shape .prev_btn{left: 10px; }
+.right_shape .next_btn {right: 10px;}
+.right_shape .prev_btn img, .right_shape .next_btn img {width: 34px; height: 34px;}
+.right_shape .prev_btn img{margin-left: -5px;}
+.right_shape .next_btn img {margin-right: -5px;}
+.hot_tit {font-weight: 600;}
+.hot_txt_box {padding: 20px;}
+
+/* responsive mode */
+@media(max-width:992px){
+
+}
