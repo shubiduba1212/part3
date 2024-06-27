@@ -23,11 +23,13 @@ import CultureApi from './apis/CultureApi';
 import { useEffect, useState } from 'react';
 
 export default function App() {
+
+  // Api 호출시 상태 저장을 위한 설정
   const [data, setData] = useState(null);
 
   useEffect(
     () => {
-      CultureApi({ setData });
+      CultureApi({ setData }); // App.js의 setData함수를 객체 형태로 CultureApi 컴포넌트에 props로 전달
     },[]
   );
 
@@ -43,7 +45,6 @@ export default function App() {
               <Route path='/signup' element={<SignUpPage/>}/> {/* 추가 정보 입력 */}
               <Route path="/cultureinfo" element={<CultureInfo/>}/> {/* 전시/공연 정보 */}
               <Route path="/cultureinfo/detail" element={<CultureDetail/>}/> {/* 전시/공연 상세페이지*/}
-              {/*<Route path="/culture-api" element={<CultureApi/>}/>  전시/공연 공공 api*/}
               <Route path='/completed' element={<CompletedPage/>}/> {/* 회원 가입 완료 */}
               <Route path='/mypage' element={<MyPage/>}/> {/* 마이 페이지 */}
               <Route path='/help' element={<Cs />} /> {/* 고객 센터 */}
