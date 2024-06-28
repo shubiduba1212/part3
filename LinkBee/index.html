@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    const today = new Date();
+    const dayName = today.getDay() == 0 ? '일' : today.getDay() == 1 ? '월' : today.getDay() == 2 ? '화' : today.getDay() == 3 ? '수' : today.getDay() == 4 ? '목' : today.getDay() == 5 ? '금' : '토';
+    console.log(today.getDay());
+    console.log(dayName);
+    const stringDate = "20240813";
+    const year = stringDate.slice(0, 4);
+    const month = stringDate.slice(4, 6);
+    const day = stringDate.slice(6);
+    const date = new Date(year+"-"+month+"-"+day);
+    console.log(date);
+
+    // 오늘 날짜 데이터
+    console.log(parseInt((date - today) / 86400000));
+  </script>
+</body>
+</html>
