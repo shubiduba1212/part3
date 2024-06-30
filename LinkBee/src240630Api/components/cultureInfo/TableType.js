@@ -3,11 +3,26 @@ import styles from '../../pages/cultureInfo/CultureInfo.module.css';
 import LoadingSpinner from '../commons/Loading';
 
 export default function TableType({cultureList, detailDataList}){
+  // 데이터가 로딩 중일 때 처리
   const navigate = useNavigate();
   const today = new Date();
+  if (!cultureList || !cultureList.perforList || !detailDataList) {
+    return <LoadingSpinner />;
+  }
+
   return(
       <>
-        {cultureList.cultureList && cultureList.cultureList.perforList ? cultureList.cultureList.perforList.map((item, index) => {
+        <table>
+          <thead>
+            <tr>
+              <th>구분</th>
+              <th>제목</th>
+              <th>가격</th>
+              <th>일정</th>
+            </tr>
+          </thead>
+          <tbody>
+        {cultureList && cultureList.perforList ? cultureList.perforList.map((item, index) => {
             // 공연 / 전시 start/endDate
             const convertDateFormat = (stringDate, type) => {
               let dateFormat = "";
@@ -36,35 +51,25 @@ export default function TableType({cultureList, detailDataList}){
               }
             }
 
+            // seq에 해당하는 detailData 가져오기
             const detailData = detailDataList[item.seq];
-            console.log("detailData from CardType.js : "+detailData);
-          //   {detailData && (
-          //     <div className={styles.detail_data}>
-          //     {/* 상세 데이터를 표시할 추가 요소들 */}
-          //   </div>
-          // )}
+            console.log("Detail data for seq ", item.seq, ": ", detailData);
+
+            // detailData가 존재하고 price 속성이 있을 때 가격 표시
+            const price = detailData && detailData.price ? detailData.price : "가격 정보 없음";
             
-            return(
-            <table>
-              <thead>
-                <tr>
-                  <th>구분</th>
-                  <th>제목</th>
-                  <th>가격</th>
-                  <th>일정</th>
-                </tr>
-              </thead>
-              <tbody>
+            return(            
                 <tr onClick={() => navigate(`/cultureinfo/detail/${item.seq}`)} key={index}>
-                  <td>{category(item.realName)}</td>
+                  <td>{category(item.realmName)}</td>
                   <td>{title}</td>
-                  <td>70,000 ~ 160,000원</td>
+                  <td>{price}</td>
                   <td>{convertDateFormat(item.startDate, null)} ~ {convertDateFormat(item.endDate, null)}</td>
                 </tr>
-              </tbody>
-            </table>
+              
             );          
           }) : <LoadingSpinner/>}
+          </tbody>
+        </table>
       </>
   );
 }

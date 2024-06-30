@@ -22,9 +22,9 @@ import CultureDetailApi from './apis/CultureDetailApi';
 export default function App() {
 
   // Api 호출시 상태 저장을 위한 설정
-  const [data, setData] = useState(null);
-  const [seqList, setSeqList] = useState([]);
-  const [detailDataList, setDetailDataList] = useState({});
+  const [data, setData] = useState(null); // 공공데이터 기간별 조회 목록
+  const [seqList, setSeqList] = useState([]); // 상세 조회를 위한 공공데이터 seq 데이터 리스트 저장
+  const [detailDataList, setDetailDataList] = useState({}); // seq 데이터 리스트에 따른 공공 데이터 상세 정보 key:value로 저장
 
   useEffect(
     () => {
@@ -36,11 +36,8 @@ export default function App() {
     console.log(data); // 데이터가 변경될 때마다 로그를 출력
     if (data?.perforList) {
       console.log("data length : " + data.perforList.length);
-      const newSeqList = data.perforList.map(perfor => perfor.seq);
-      setSeqList(newSeqList);
-      for (let i = 0; i < data.perforList.length; i++) {
-        console.log("seq : " + data.perforList[i].seq);
-      }
+      const newSeqList = data.perforList.map(perfor => perfor.seq); // seq 데이터 리스트 생성
+      setSeqList(newSeqList); // seq 데이터 리스트 설정
     }    
   }, [data]);
 
@@ -51,10 +48,6 @@ export default function App() {
         setDetailData: detailData => {
           setDetailDataList(prev => ({ ...prev, [seq]: detailData }));
         }
-        //prev는 현재의 detailDataList 상태를 나타낸다. 이전 상태를 변경하지 않고 새로운 객체를 반환하기 위해 함수형 업데이트를 사용
-        // { ...prev }: 기존의 detailDataList 상태를 복사
-        // [seq]: detailData: 새로운 detailData를 seq를 key로 하는 새로운 항목으로 추가
-        // 예를 들어, seq가 279065인 경우에는 detailDataList[279065]에 해당하는 값이 detailData로 설정
       }, seq);
     });
   }, [seqList]);
@@ -70,7 +63,7 @@ export default function App() {
               <Route path='/login' element={<LoginPage/>}/> {/* 로그인 */}
               <Route path='/signup' element={<SignUpPage/>}/> {/* 추가 정보 입력 */}
               <Route path="/cultureinfo" element={data ? <CultureInfo cultureList={JSON.stringify(data)} detailDataList={detailDataList}/> : <LoadingSpinner />}/> {/* 전시/공연 정보 */}
-              <Route path="/cultureinfo/detail/:seq" element={<CultureDetail/>}/> {/* 전시/공연 상세페이지*/}
+              <Route path="/cultureinfo/detail/:seq" element={<CultureDetail detailDataList={detailDataList}/>}/> {/* 전시/공연 상세페이지*/}
               <Route path='/completed' element={<CompletedPage/>}/> {/* 회원 가입 완료 */}
               <Route path='/honeypot' element={<HoneypotPage/>}/> {/* 허니팟 페이지 */}
               <Route path='/mypage' element={<MyPage/>}/> {/* 마이 페이지 */}
