@@ -51,6 +51,10 @@ export default function App() {
         setDetailData: detailData => {
           setDetailDataList(prev => ({ ...prev, [seq]: detailData }));
         }
+        //prev는 현재의 detailDataList 상태를 나타낸다. 이전 상태를 변경하지 않고 새로운 객체를 반환하기 위해 함수형 업데이트를 사용
+        // { ...prev }: 기존의 detailDataList 상태를 복사
+        // [seq]: detailData: 새로운 detailData를 seq를 key로 하는 새로운 항목으로 추가
+        // 예를 들어, seq가 279065인 경우에는 detailDataList[279065]에 해당하는 값이 detailData로 설정
       }, seq);
     });
   }, [seqList]);
