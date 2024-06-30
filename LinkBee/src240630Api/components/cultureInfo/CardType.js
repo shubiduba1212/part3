@@ -34,6 +34,22 @@ export default function CardType({cultureList, detailDataList}){
 
             const detailData = detailDataList[item.seq];
             console.log("detailData from CardType.js : "+detailData);
+
+                // 가격 (숫자만 가져오기)
+            // const priceData = (price) => {  
+            //   let splitPrice = "";
+            //   const regex = /[^0-9]/g;
+            //   // (detailData.price).search();
+            //   if(price.includes(",")){
+            //     splictPrice = price.split(",");
+            //     const result = splitPrice.replace(regex, "");
+            //     return result;
+            //   } else if(price.includes("/")){
+            //     splictPrice = price.split("/");
+            //     const result = splitPrice.replace(regex, "");
+            //     return result;
+            //   }
+            // }
             
             return(
               <li key={index}>
