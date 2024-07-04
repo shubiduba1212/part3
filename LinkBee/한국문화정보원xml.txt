@@ -1,0 +1,3620 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+    <comMsgHeader>
+        <RequestMsgID></RequestMsgID>
+        <ResponseTime>2024-06-24 05:03:36.336</ResponseTime>
+        <ResponseMsgID></ResponseMsgID>
+        <SuccessYN>Y</SuccessYN>
+        <ReturnCode>00</ReturnCode>
+        <ErrMsg>NORMAL SERVICE.</ErrMsg>
+    </comMsgHeader>
+    <msgBody>
+        <totalCount>333</totalCount>
+        <cPage>1</cPage>
+        <rows>300</rows>
+        <from>20240701</from>
+        <to>20241201</to>
+        <keyword></keyword>
+        <sortStdr>3</sortStdr>
+        <perforList>
+            <seq>264724</seq>
+            <title>DDP 45133 전시</title>
+            <startDate>20231221</startDate>
+            <endDate>20241130</endDate>
+            <place>DDP 동대문디자인플라자</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/23/12/show_2023121112475372945.JPG</thumbnail>
+            <gpsX>127.00992120314844</gpsX>
+            <gpsY>37.56719962915536</gpsY>
+        </perforList>
+        <perforList>
+            <seq>276446</seq>
+            <title>RSVP: 위대한 유산으로의 초대</title>
+            <startDate>20240503</startDate>
+            <endDate>20240804</endDate>
+            <place>DDP 동대문디자인플라자</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_2024051015473032970.jpg</thumbnail>
+            <gpsX>127.00992120314844</gpsX>
+            <gpsY>37.56719962915536</gpsY>
+        </perforList>
+        <perforList>
+            <seq>276216</seq>
+            <title>&amp;lt;DDP 개관 10주년 기념 포스터&amp;gt; 전시</title>
+            <startDate>20240426</startDate>
+            <endDate>20240804</endDate>
+            <place>DDP 동대문디자인플라자</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_20240581662743843.jpg</thumbnail>
+            <gpsX>127.00992120314844</gpsX>
+            <gpsY>37.56719962915536</gpsY>
+        </perforList>
+        <perforList>
+            <seq>276212</seq>
+            <title>헬로키티 50주년 특별전 - 산리오캐릭터즈와의 여행</title>
+            <startDate>20240413</startDate>
+            <endDate>20240813</endDate>
+            <place>DDP 동대문디자인플라자</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_202405815583252669.jpg</thumbnail>
+            <gpsX>127.00992120314844</gpsX>
+            <gpsY>37.56719962915536</gpsY>
+        </perforList>
+        <perforList>
+            <seq>279609</seq>
+            <title>해리포터 콘서트 : MAGIC ON STAGE</title>
+            <startDate>20240706</startDate>
+            <endDate>20240706</endDate>
+            <place>KBS홀</place>
+            <realmName>음악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_202406132356065804.jpeg</thumbnail>
+            <gpsX>126.91528930395113</gpsX>
+            <gpsY>37.52583633705254</gpsY>
+        </perforList>
+        <perforList>
+            <seq>278481</seq>
+            <title>KF XR 갤러리 기획전 &amp;lt;메타 시티: 서울-파리&amp;gt;</title>
+            <startDate>20240426</startDate>
+            <endDate>20240907</endDate>
+            <place>KF갤러리</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_202405311521055009.jpg</thumbnail>
+            <gpsX>126.98520589091294</gpsX>
+            <gpsY>37.56733877344796</gpsY>
+        </perforList>
+        <perforList>
+            <seq>280351</seq>
+            <title>KF-빌리타운 협력전시 《물보라를 일으켜》</title>
+            <startDate>20240620</startDate>
+            <endDate>20240817</endDate>
+            <place>KF갤러리</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024062016405293025.jpg</thumbnail>
+            <gpsX>126.98520589091294</gpsX>
+            <gpsY>37.56733877344796</gpsY>
+        </perforList>
+        <perforList>
+            <seq>277029</seq>
+            <title>더 라이프 스타일 박람회</title>
+            <startDate>20240725</startDate>
+            <endDate>20240727</endDate>
+            <place>SETEC</place>
+            <realmName>기타</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_2024051713522526238.jpg</thumbnail>
+            <gpsX>127.07179089106594</gpsX>
+            <gpsY>37.49576937398447</gpsY>
+        </perforList>
+        <perforList>
+            <seq>273892</seq>
+            <title>봄봄봄 Spring, Seeing and Looking</title>
+            <startDate>20240412</startDate>
+            <endDate>20240707</endDate>
+            <place>강릉시립미술관</place>
+            <realmName>미술</realmName>
+            <area>강원</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/04/show_2024041216361435308.jpg</thumbnail>
+            <gpsX>128.89083631129705</gpsX>
+            <gpsY>37.76054633933659</gpsY>
+        </perforList>
+        <perforList>
+            <seq>279752</seq>
+            <title>제139회 강릉시립교향악단 정기연주회</title>
+            <startDate>20240712</startDate>
+            <endDate>20240712</endDate>
+            <place>강릉아트센터(구. 강릉문화예술관) 사임당홀(대공연장)</place>
+            <realmName>음악</realmName>
+            <area>강원</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_2024061321181252122.jpg</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>280441</seq>
+            <title>조각의 조각 A Piece of Sculpture</title>
+            <startDate>20240621</startDate>
+            <endDate>20240707</endDate>
+            <place>갤러리 도올</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024062021211586619.jpg</thumbnail>
+            <gpsX>126.981676992197</gpsX>
+            <gpsY>37.5832322737028</gpsY>
+        </perforList>
+        <perforList>
+            <seq>279289</seq>
+            <title>꽃은 핀다</title>
+            <startDate>20240614</startDate>
+            <endDate>20240714</endDate>
+            <place>갤러리 조이</place>
+            <realmName>미술</realmName>
+            <area>부산</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_202406112121951441.png</thumbnail>
+            <gpsX>129.174625549182</gpsX>
+            <gpsY>35.1597545813062</gpsY>
+        </perforList>
+        <perforList>
+            <seq>279088</seq>
+            <title>자개 자수 Everyday Handcraft Abstract</title>
+            <startDate>20240605</startDate>
+            <endDate>20240706</endDate>
+            <place>갤러리 플래닛</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024060821473292476.jpg</thumbnail>
+            <gpsX>127.045900812708</gpsX>
+            <gpsY>37.5275164514377</gpsY>
+        </perforList>
+        <perforList>
+            <seq>280084</seq>
+            <title>전재은 개인전 : 아주 어린 시절부터 읽어 온 언어</title>
+            <startDate>20240517</startDate>
+            <endDate>20240713</endDate>
+            <place>갤러리CNK</place>
+            <realmName>미술</realmName>
+            <area>대구</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024061811575662189.png</thumbnail>
+            <gpsX>128.59904884256</gpsX>
+            <gpsY>35.859593190773</gpsY>
+        </perforList>
+        <perforList>
+            <seq>276877</seq>
+            <title>누구세요  Who is this</title>
+            <startDate>20240515</startDate>
+            <endDate>20240712</endDate>
+            <place>갤러리밈</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_2024051421213559267.jpg</thumbnail>
+            <gpsX>126.985992903258</gpsX>
+            <gpsY>37.5728166511727</gpsY>
+        </perforList>
+        <perforList>
+            <seq>278023</seq>
+            <title>피터문 개인전 [Active Waiting]</title>
+            <startDate>20240529</startDate>
+            <endDate>20240710</endDate>
+            <place>갤러리오로라</place>
+            <realmName>미술</realmName>
+            <area>경남</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_2024052521215742306.jpg</thumbnail>
+            <gpsX>129.083710437553</gpsX>
+            <gpsY>35.4875896158573</gpsY>
+        </perforList>
+        <perforList>
+            <seq>278979</seq>
+            <title>김선영 : NET</title>
+            <startDate>20240611</startDate>
+            <endDate>20240713</endDate>
+            <place>갤러리위</place>
+            <realmName>미술</realmName>
+            <area>경기</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024060721503716666.jpg</thumbnail>
+            <gpsX>127.068856899319</gpsX>
+            <gpsY>37.3521134184033</gpsY>
+        </perforList>
+        <perforList>
+            <seq>272482</seq>
+            <title>세월호참사 10주기 추념전 《우리가, 바다》</title>
+            <startDate>20240412</startDate>
+            <endDate>20240714</endDate>
+            <place>경기도미술관</place>
+            <realmName>미술</realmName>
+            <area>경기</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/03/show_202403251775684178.png</thumbnail>
+            <gpsX>126.81407640381597</gpsX>
+            <gpsY>37.32580289466538</gpsY>
+        </perforList>
+        <perforList>
+            <seq>268169</seq>
+            <title>경기도어린이박물관《내 마음 쏙! 박물관》</title>
+            <startDate>20230926</startDate>
+            <endDate>20240825</endDate>
+            <place>경기도어린이박물관</place>
+            <realmName>미술</realmName>
+            <area>경기</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/01/show_202401311323132005.png</thumbnail>
+            <gpsX>127.1096573598879</gpsX>
+            <gpsY>37.2673983419378</gpsY>
+        </perforList>
+        <perforList>
+            <seq>280301</seq>
+            <title>[수원] 공간 갤러리 콘서트</title>
+            <startDate>20240712</startDate>
+            <endDate>20240712</endDate>
+            <place>경기아트센터(구. 경기도문화의전당) 대극장</place>
+            <realmName>음악</realmName>
+            <area>경기</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_202406182119079621.gif</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>273550</seq>
+            <title>경기도무용단, 토요상설공연: 문화유산을 춤추다</title>
+            <startDate>20240427</startDate>
+            <endDate>20241026</endDate>
+            <place>경기아트센터(구. 경기도문화의전당) 소극장</place>
+            <realmName>음악</realmName>
+            <area>경기</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/04/rdf_2024040421473699096.gif</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>278776</seq>
+            <title>2024 서울시향 퇴근길 토크 콘서트 Ⅱ: 경동교회</title>
+            <startDate>20240719</startDate>
+            <endDate>20240719</endDate>
+            <place>경동교회</place>
+            <realmName>음악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024060513401572536.png</thumbnail>
+            <gpsX>127.0072167</gpsX>
+            <gpsY>37.56313</gpsY>
+        </perforList>
+        <perforList>
+            <seq>255361</seq>
+            <title>경주예술의전당 알천미술관 전시홀 소장품전 &amp;lt;모두의 미술관&amp;gt;</title>
+            <startDate>20230725</startDate>
+            <endDate>20240719</endDate>
+            <place>경주예술의전당 알천미술관</place>
+            <realmName>미술</realmName>
+            <area>경북</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/23/09/show_202309813415156399.jpg</thumbnail>
+            <gpsX>129.20616870893798</gpsX>
+            <gpsY>35.86264432385228</gpsY>
+        </perforList>
+        <perforList>
+            <seq>268090</seq>
+            <title>돌, 삶을 쌓다</title>
+            <startDate>20230714</startDate>
+            <endDate>20240714</endDate>
+            <place>계양산성박물관</place>
+            <realmName>미술</realmName>
+            <area>인천</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/01/show_2024012916354468664.jpg</thumbnail>
+            <gpsX>126.7270396528596</gpsX>
+            <gpsY>37.548014964438046</gpsY>
+        </perforList>
+        <perforList>
+            <seq>269708</seq>
+            <title>제27회 세계유산, 고령 지산동고분군</title>
+            <startDate>20231026</startDate>
+            <endDate>20240804</endDate>
+            <place>고령대가야박물관</place>
+            <realmName>미술</realmName>
+            <area>경북</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/02/show_2024022114144737134.jpg</thumbnail>
+            <gpsX>128.2571496124413</gpsX>
+            <gpsY>35.72316774160371</gpsY>
+        </perforList>
+        <perforList>
+            <seq>269586</seq>
+            <title>고대의 거북 - 신비한 거북이야기</title>
+            <startDate>20230922</startDate>
+            <endDate>20240901</endDate>
+            <place>고성공룡박물관</place>
+            <realmName>미술</realmName>
+            <area>경남</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/02/show_2024022017334290607.jpg</thumbnail>
+            <gpsX>128.14863364262675</gpsX>
+            <gpsY>34.9082646516721</gpsY>
+        </perforList>
+        <perforList>
+            <seq>269585</seq>
+            <title>무장애 특별전 &amp;#39;고성, 공룡에 닿다&amp;#39;</title>
+            <startDate>20231219</startDate>
+            <endDate>20240901</endDate>
+            <place>고성공룡박물관</place>
+            <realmName>미술</realmName>
+            <area>경남</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/02/show_202402201728156560.jpg</thumbnail>
+            <gpsX>128.14863364262675</gpsX>
+            <gpsY>34.9082646516721</gpsY>
+        </perforList>
+        <perforList>
+            <seq>269091</seq>
+            <title>크리스토프 루크헤베를레 [그림 깨우기]</title>
+            <startDate>20240328</startDate>
+            <endDate>20240707</endDate>
+            <place>고양아람누리 아람미술관</place>
+            <realmName>미술</realmName>
+            <area>경기</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/02/show_202402141533441084.jpg</thumbnail>
+            <gpsX>37.6614856048971</gpsX>
+            <gpsY>126.774458292187</gpsY>
+        </perforList>
+        <perforList>
+            <seq>279238</seq>
+            <title>[고양] 제2회 아인스 심포니 오케스트라 정기연주회</title>
+            <startDate>20240706</startDate>
+            <endDate>20240706</endDate>
+            <place>고양아람누리 아람음악당</place>
+            <realmName>음악</realmName>
+            <area>경기</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_202406102118883135.gif</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>279777</seq>
+            <title>제76회 고양시립합창단 정기연주회: 낭만의 노래</title>
+            <startDate>20240711</startDate>
+            <endDate>20240711</endDate>
+            <place>고양아람누리 아람음악당</place>
+            <realmName>음악</realmName>
+            <area>경기</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_2024061321181514061.jpg</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>269816</seq>
+            <title>분청을 기록하고 기억하다</title>
+            <startDate>20231116</startDate>
+            <endDate>20241130</endDate>
+            <place>고흥분청문화박물관</place>
+            <realmName>미술</realmName>
+            <area>전남</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/02/show_20240222137928122.jpg</thumbnail>
+            <gpsX>127.324471107303</gpsX>
+            <gpsY>34.6278242347211</gpsY>
+        </perforList>
+        <perforList>
+            <seq>280291</seq>
+            <title>[공주] 금난새와 함께하는 브런치 콘서트, 살롱 드 공주 첫 번째</title>
+            <startDate>20240716</startDate>
+            <endDate>20240716</endDate>
+            <place>공주문예회관 대공연장</place>
+            <realmName>음악</realmName>
+            <area>충남</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_202406182119305289.png</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>279945</seq>
+            <title>제167회 강남심포니오케스트라 클래식품격콘서트, 강남마티네 콘서트 GREAT COMPOSER SERIES: 로시니 VS 베르디</title>
+            <startDate>20240704</startDate>
+            <endDate>20240704</endDate>
+            <place>광림아트센터 장천홀</place>
+            <realmName>음악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_2024061421183301890.jpg</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>277064</seq>
+            <title>2024 G.MAP 실감콘텐츠전 &amp;lt;너머의 세계&amp;gt;</title>
+            <startDate>20240510</startDate>
+            <endDate>20240804</endDate>
+            <place>광주미디어아트 플랫폼</place>
+            <realmName>미술</realmName>
+            <area>광주</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_202405171519350279.jpg</thumbnail>
+            <gpsX>126.90809133496894</gpsX>
+            <gpsY>35.14839069232047</gpsY>
+        </perforList>
+        <perforList>
+            <seq>278047</seq>
+            <title>유네스코 창의도시 선정 10주년 기념전 &amp;lt;헤테로포니 : 10년의 연주&amp;gt;</title>
+            <startDate>20240521</startDate>
+            <endDate>20240804</endDate>
+            <place>광주미디어아트 플랫폼</place>
+            <realmName>미술</realmName>
+            <area>광주</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_202405271632346723.jpg</thumbnail>
+            <gpsX>126.90809133496894</gpsX>
+            <gpsY>35.14839069232047</gpsY>
+        </perforList>
+        <perforList>
+            <seq>277062</seq>
+            <title>정정주: Luminous City</title>
+            <startDate>20240503</startDate>
+            <endDate>20240804</endDate>
+            <place>광주미디어아트 플랫폼</place>
+            <realmName>미술</realmName>
+            <area>광주</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_2024051715163451436.png</thumbnail>
+            <gpsX>126.90809133496894</gpsX>
+            <gpsY>35.14839069232047</gpsY>
+        </perforList>
+        <perforList>
+            <seq>280218</seq>
+            <title>2024 여름 특별전 우주의 언어 - 수</title>
+            <startDate>20240605</startDate>
+            <endDate>20240815</endDate>
+            <place>광주시립미술관</place>
+            <realmName>미술</realmName>
+            <area>광주</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024061917173938796.png</thumbnail>
+            <gpsX>126.88569893884143</gpsX>
+            <gpsY>35.18341644370536</gpsY>
+        </perforList>
+        <perforList>
+            <seq>280219</seq>
+            <title>2024 여름 특별전 - 한국미술명작</title>
+            <startDate>20240605</startDate>
+            <endDate>20240815</endDate>
+            <place>광주시립미술관</place>
+            <realmName>미술</realmName>
+            <area>광주</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024061917294710863.png</thumbnail>
+            <gpsX>126.88569893884143</gpsX>
+            <gpsY>35.18341644370536</gpsY>
+        </perforList>
+        <perforList>
+            <seq>280220</seq>
+            <title>하정웅컬렉션으로 만나는 한국추상미술</title>
+            <startDate>20240608</startDate>
+            <endDate>20240815</endDate>
+            <place>광주시립미술관 하정웅미술관</place>
+            <realmName>미술</realmName>
+            <area>광주</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024061917372060928.jpg</thumbnail>
+            <gpsX>126.88826863837451</gpsX>
+            <gpsY>35.154859322842654</gpsY>
+        </perforList>
+        <perforList>
+            <seq>274896</seq>
+            <title>김대중 탄생 100주년 기념 특별전《김대중, 다시 광야에서》</title>
+            <startDate>20240418</startDate>
+            <endDate>20240818</endDate>
+            <place>광주역사민속박물관</place>
+            <realmName>미술</realmName>
+            <area>광주</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/04/show_2024042314342455369.png</thumbnail>
+            <gpsX>126.88853590849173</gpsX>
+            <gpsY>35.18419876026546</gpsY>
+        </perforList>
+        <perforList>
+            <seq>280493</seq>
+            <title>종로문화재단 x 한국편집 기자협회 특별전시 &amp;lt;언론의 지평&amp;gt;</title>
+            <startDate>20240702</startDate>
+            <endDate>20240705</endDate>
+            <place>광화문광장</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_202406211646751928.jpg</thumbnail>
+            <gpsX>126.97699788399659</gpsX>
+            <gpsY>37.572653332435635</gpsY>
+        </perforList>
+        <perforList>
+            <seq>278912</seq>
+            <title>[2024 구로스테이지] TO. X (양다일, 디에이드)</title>
+            <startDate>20240720</startDate>
+            <endDate>20240720</endDate>
+            <place>구로아트밸리 예술극장</place>
+            <realmName>음악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024060710592131922.jpg</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>278354</seq>
+            <title>Summer Jazzbreak 2024 - 재즈 속으로 떠나는 여름 힐링 음악 여행</title>
+            <startDate>20240831</startDate>
+            <endDate>20240831</endDate>
+            <place>구로아트밸리 예술극장</place>
+            <realmName>음악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_202405301535697083.jpg</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>275656</seq>
+            <title>국가무형유산 지정 60주년 기념전 &amp;#39;날마다 특별한&amp;#39;</title>
+            <startDate>20240426</startDate>
+            <endDate>20240731</endDate>
+            <place>국가무형문화재전수교육관</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/04/show_2024043016271522706.jpg</thumbnail>
+            <gpsX>127.04463400303268</gpsX>
+            <gpsY>37.51009973465763</gpsY>
+        </perforList>
+        <perforList>
+            <seq>276153</seq>
+            <title>경주어린이박물관학교 70주년, 기억과 연결</title>
+            <startDate>20240716</startDate>
+            <endDate>20240922</endDate>
+            <place>국립경주박물관</place>
+            <realmName>미술</realmName>
+            <area>경북</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_20240571731114709.png</thumbnail>
+            <gpsX>129.22688236609787</gpsX>
+            <gpsY>35.82922756558925</gpsY>
+        </perforList>
+        <perforList>
+            <seq>276778</seq>
+            <title>상상의 동물사전 - 백제의 용(龍) &amp;lt;가제&amp;gt;</title>
+            <startDate>20240910</startDate>
+            <endDate>20250209</endDate>
+            <place>국립공주박물관</place>
+            <realmName>미술</realmName>
+            <area>충남</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_2024051416391447675.png</thumbnail>
+            <gpsX>127.11209320817734</gpsX>
+            <gpsY>36.465570567899434</gpsY>
+        </perforList>
+        <perforList>
+            <seq>276157</seq>
+            <title>도자기, 풍류를 품다</title>
+            <startDate>20240621</startDate>
+            <endDate>20240922</endDate>
+            <place>국립광주박물관</place>
+            <realmName>미술</realmName>
+            <area>광주</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024061315374672851.jpg</thumbnail>
+            <gpsX>126.88308334728757</gpsX>
+            <gpsY>35.18907896386975</gpsY>
+        </perforList>
+        <perforList>
+            <seq>279218</seq>
+            <title>제13회 박안지 타악 독주회, 소리의 공간</title>
+            <startDate>20240707</startDate>
+            <endDate>20240707</endDate>
+            <place>국립국악원 풍류사랑방</place>
+            <realmName>음악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_202406102118654297.gif</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>278879</seq>
+            <title>2024 여우락 페스티벌 - 허윤정 &amp;lt;다시:나기&amp;gt;</title>
+            <startDate>20240705</startDate>
+            <endDate>20240706</endDate>
+            <place>국립극장 달오름극장</place>
+            <realmName>음악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_2024060521492064946.png</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>280425</seq>
+            <title>여우락 페스티벌: 원일, 디오니소스 로봇: 리부트</title>
+            <startDate>20240719</startDate>
+            <endDate>20240720</endDate>
+            <place>국립극장 달오름극장</place>
+            <realmName>음악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_2024061921194349933.gif</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>279272</seq>
+            <title>2024 여우락 페스티벌 - 이태백 &amp;lt;오리진 사운드(ORIGIN SOUND)&amp;gt;</title>
+            <startDate>20240710</startDate>
+            <endDate>20240710</endDate>
+            <place>국립극장 달오름극장</place>
+            <realmName>음악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_2024061021184375147.png</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>279818</seq>
+            <title>2024 여우락 페스티벌 - 송소희 &amp;lt;공중무용:화간접무(花間蝶舞)&amp;gt;</title>
+            <startDate>20240713</startDate>
+            <endDate>20240714</endDate>
+            <place>국립극장 달오름극장</place>
+            <realmName>음악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_2024061321191798131.png</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>278797</seq>
+            <title>2024 여우락 페스티벌 - 박우재 &amp;lt;오:O&amp;gt;</title>
+            <startDate>20240704</startDate>
+            <endDate>20240704</endDate>
+            <place>국립극장 하늘극장</place>
+            <realmName>음악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_202406042149921492.png</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>279101</seq>
+            <title>2024 여우락 페스티벌 - 이준 &amp;lt;경계면&amp;gt;</title>
+            <startDate>20240709</startDate>
+            <endDate>20240709</endDate>
+            <place>국립극장 하늘극장</place>
+            <realmName>음악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_2024060921183217522.png</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>280167</seq>
+            <title>2024 여우락 페스티벌 - 윤은화 &amp;lt;페이브(PAVE)&amp;gt;</title>
+            <startDate>20240717</startDate>
+            <endDate>20240717</endDate>
+            <place>국립극장 하늘극장</place>
+            <realmName>음악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_2024061721192785470.png</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>279592</seq>
+            <title>2024 여우락 페스티벌 - 방지원 &amp;lt;잔향:나무의 노래&amp;gt;</title>
+            <startDate>20240712</startDate>
+            <endDate>20240712</endDate>
+            <place>국립극장 하늘극장</place>
+            <realmName>음악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_2024061221183128410.gif</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>275807</seq>
+            <title>세계유산 백제, 세계유산 가야</title>
+            <startDate>20240502</startDate>
+            <endDate>20240728</endDate>
+            <place>국립김해박물관</place>
+            <realmName>미술</realmName>
+            <area>경남</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_202405310405753405.jpg</thumbnail>
+            <gpsX>128.8734496276337</gpsX>
+            <gpsY>35.24294516621567</gpsY>
+        </perforList>
+        <perforList>
+            <seq>276147</seq>
+            <title>국립나주박물관 특별전 &amp;#39;영원한 여정, 특별한 동행&amp;#39;</title>
+            <startDate>20240423</startDate>
+            <endDate>20240728</endDate>
+            <place>국립나주박물관</place>
+            <realmName>미술</realmName>
+            <area>전남</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_202405717171359190.jpg</thumbnail>
+            <gpsX>126.65889105907927</gpsX>
+            <gpsY>34.914845780420144</gpsY>
+        </perforList>
+        <perforList>
+            <seq>280295</seq>
+            <title>굿음악축제, 국립국악원 교류공연: 꽃신 신고 훨훨</title>
+            <startDate>20240713</startDate>
+            <endDate>20240713</endDate>
+            <place>국립남도국악원 진악당</place>
+            <realmName>음악</realmName>
+            <area>전남</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024062018331084274.jpg</thumbnail>
+            <gpsX>126.22584320686995</gpsX>
+            <gpsY>34.38597326538841</gpsY>
+        </perforList>
+        <perforList>
+            <seq>280215</seq>
+            <title>2024 국립농업박물관 상반기 기획전 &amp;lt;땅의 기록, 흙의 기억&amp;gt;</title>
+            <startDate>20240604</startDate>
+            <endDate>20240825</endDate>
+            <place>국립농업박물관</place>
+            <realmName>미술</realmName>
+            <area>경기</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_202406191653575803.png</thumbnail>
+            <gpsX>126.98130540579395</gpsX>
+            <gpsY>37.27614720047973</gpsY>
+        </perforList>
+        <perforList>
+            <seq>276142</seq>
+            <title>국립대구박물관 특별전 &amp;#39;한국의 신발, 발과 신&amp;#39;</title>
+            <startDate>20240514</startDate>
+            <endDate>20240922</endDate>
+            <place>국립대구박물관</place>
+            <realmName>미술</realmName>
+            <area>대구</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_20240571783478041.jpg</thumbnail>
+            <gpsX>128.63833855256323</gpsX>
+            <gpsY>35.84557088127797</gpsY>
+        </perforList>
+        <perforList>
+            <seq>275639</seq>
+            <title>가정의 달 기념 사랑 특별전《아버지》</title>
+            <startDate>20240430</startDate>
+            <endDate>20240715</endDate>
+            <place>국립민속박물관</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/04/show_2024043013331947315.jpg</thumbnail>
+            <gpsX>126.97897680126626</gpsX>
+            <gpsY>37.58002383589378</gpsY>
+        </perforList>
+        <perforList>
+            <seq>276120</seq>
+            <title>요물, 우리를 홀린 고양이</title>
+            <startDate>20240503</startDate>
+            <endDate>20240818</endDate>
+            <place>국립민속박물관</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_20240571691339170.jpg</thumbnail>
+            <gpsX>126.97897680126626</gpsX>
+            <gpsY>37.58002383589378</gpsY>
+        </perforList>
+        <perforList>
+            <seq>277147</seq>
+            <title>종이, 봄날을 만나다</title>
+            <startDate>20240517</startDate>
+            <endDate>20240922</endDate>
+            <place>국립민속박물관 파주</place>
+            <realmName>미술</realmName>
+            <area>경기</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_202405201521528563.jpg</thumbnail>
+            <gpsX>126.69390847888027</gpsX>
+            <gpsY>37.78666386359087</gpsY>
+        </perforList>
+        <perforList>
+            <seq>250807</seq>
+            <title>국립백두대간수목원 특별전시 &quot;치유의 풀&quot;</title>
+            <startDate>20230503</startDate>
+            <endDate>20241011</endDate>
+            <place>국립백두대간수목원</place>
+            <realmName>미술</realmName>
+            <area>경북</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/23/07/show_2023072011162240133.jpg</thumbnail>
+            <gpsX>128.82995803240533</gpsX>
+            <gpsY>37.008119517167</gpsY>
+        </perforList>
+        <perforList>
+            <seq>271575</seq>
+            <title>[국립백두대간수목원] ESG 특별기획전시 UP &amp; RE</title>
+            <startDate>20231110</startDate>
+            <endDate>20241107</endDate>
+            <place>국립백두대간수목원</place>
+            <realmName>미술</realmName>
+            <area>경북</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/03/show_2024031415412178476.png</thumbnail>
+            <gpsX>128.82995803240533</gpsX>
+            <gpsY>37.008119517167</gpsY>
+        </perforList>
+        <perforList>
+            <seq>278358</seq>
+            <title>피노키오의 향기로운 모험</title>
+            <startDate>20240504</startDate>
+            <endDate>20241013</endDate>
+            <place>국립세종도서관</place>
+            <realmName>미술</realmName>
+            <area>세종</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_202405301540844568.jpg</thumbnail>
+            <gpsX>127.26810755961273</gpsX>
+            <gpsY>36.49863112702065</gpsY>
+        </perforList>
+        <perforList>
+            <seq>273946</seq>
+            <title>[국립세종수목원] 넌 어느 별에서 왔니?</title>
+            <startDate>20240413</startDate>
+            <endDate>20240721</endDate>
+            <place>국립세종도서관</place>
+            <realmName>미술</realmName>
+            <area>세종</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/04/show_2024041517101400713.jpg</thumbnail>
+            <gpsX>127.26810755961273</gpsX>
+            <gpsY>36.49863112702065</gpsY>
+        </perforList>
+        <perforList>
+            <seq>280089</seq>
+            <title>제5차 광주폴리: 바래 &amp;lt;에어 폴리(Air Folly)-물질의 순환&amp;gt;</title>
+            <startDate>20240618</startDate>
+            <endDate>20240714</endDate>
+            <place>국립아시아문화전당</place>
+            <realmName>미술</realmName>
+            <area>광주</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024061814334974411.jpg</thumbnail>
+            <gpsX>126.92005723156174</gpsX>
+            <gpsY>35.14704938925195</gpsY>
+        </perforList>
+        <perforList>
+            <seq>252677</seq>
+            <title>어린이 책 놀이터 너나들이 도시풍경</title>
+            <startDate>20230804</startDate>
+            <endDate>20240707</endDate>
+            <place>국립아시아문화전당</place>
+            <realmName>미술</realmName>
+            <area>광주</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/23/08/show_2023080911215092869.jpg</thumbnail>
+            <gpsX>126.92005723156174</gpsX>
+            <gpsY>35.14704938925195</gpsY>
+        </perforList>
+        <perforList>
+            <seq>279114</seq>
+            <title>거의 인간</title>
+            <startDate>20240823</startDate>
+            <endDate>20240824</endDate>
+            <place>국립아시아문화전당 극장1</place>
+            <realmName>기타</realmName>
+            <area>광주</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_202406101012263383.jpg</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>279112</seq>
+            <title>대리된 존엄</title>
+            <startDate>20240712</startDate>
+            <endDate>20240713</endDate>
+            <place>국립아시아문화전당 극장1</place>
+            <realmName>기타</realmName>
+            <area>광주</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_202406109573794531.jpg</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>277353</seq>
+            <title>남아시아 춤의 성소 : 리미널 스페이스</title>
+            <startDate>20240517</startDate>
+            <endDate>20240721</endDate>
+            <place>국립아시아문화전당 문화정보원</place>
+            <realmName>미술</realmName>
+            <area>광주</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_2024052416395405370.jpg</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>277352</seq>
+            <title>중앙아시아 전통놀이 - 추코놀이와 토구즈 코르골</title>
+            <startDate>20240501</startDate>
+            <endDate>20240804</endDate>
+            <place>국립아시아문화전당 문화정보원</place>
+            <realmName>미술</realmName>
+            <area>광주</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_2024052416361979599.jpg</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>280091</seq>
+            <title>ACC에 반한 스케치</title>
+            <startDate>20240620</startDate>
+            <endDate>20240707</endDate>
+            <place>국립아시아문화전당 문화정보원</place>
+            <realmName>미술</realmName>
+            <area>광주</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024061814372699945.jpg</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>265758</seq>
+            <title>이음 지음</title>
+            <startDate>20231222</startDate>
+            <endDate>20240721</endDate>
+            <place>국립아시아문화전당 문화창조원 복합 2관</place>
+            <realmName>미술</realmName>
+            <area>광주</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/23/12/show_202312221010845171.jpg</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>276773</seq>
+            <title>열두 띠에 숨겨진 비밀</title>
+            <startDate>20240501</startDate>
+            <endDate>20240831</endDate>
+            <place>국립어린이청소년도서관</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_2024051415472498787.jpg</thumbnail>
+            <gpsX>127.02970052891739</gpsX>
+            <gpsY>37.500927695028295</gpsY>
+        </perforList>
+        <perforList>
+            <seq>267754</seq>
+            <title>키우다: 모두 함께한 육아</title>
+            <startDate>20230905</startDate>
+            <endDate>20240725</endDate>
+            <place>국립여성사전시관</place>
+            <realmName>미술</realmName>
+            <area>경기</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/01/show_202401241734183984.jpg</thumbnail>
+            <gpsX>126.83425229396421</gpsX>
+            <gpsY>37.63572784502114</gpsY>
+        </perforList>
+        <perforList>
+            <seq>276140</seq>
+            <title>미륵의 마음, 모악산 금산사</title>
+            <startDate>20240503</startDate>
+            <endDate>20240818</endDate>
+            <place>국립전주박물관</place>
+            <realmName>미술</realmName>
+            <area>전북</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_20240571704775307.jpg</thumbnail>
+            <gpsX>127.08975617081092</gpsX>
+            <gpsY>35.801307383027286</gpsY>
+        </perforList>
+        <perforList>
+            <seq>275038</seq>
+            <title>섬: 1933~2019</title>
+            <startDate>20240522</startDate>
+            <endDate>20240707</endDate>
+            <place>국립정동극장</place>
+            <realmName>연극</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/04/show_2024042417372141107.jpg</thumbnail>
+            <gpsX>126.97279499396676</gpsX>
+            <gpsY>37.56587019504471</gpsY>
+        </perforList>
+        <perforList>
+            <seq>280096</seq>
+            <title>차 한 잔 하실래요?</title>
+            <startDate>20240718</startDate>
+            <endDate>20240723</endDate>
+            <place>국립정동극장 세실 (구.세실극장)</place>
+            <realmName>무용</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024061815282151579.jpg</thumbnail>
+            <gpsX>126.97590740298678</gpsX>
+            <gpsY>37.56677637215592</gpsY>
+        </perforList>
+        <perforList>
+            <seq>280094</seq>
+            <title>그 날이 오기를 간절히 기다렸어요</title>
+            <startDate>20240704</startDate>
+            <endDate>20240709</endDate>
+            <place>국립정동극장 세실 (구.세실극장)</place>
+            <realmName>무용</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024061815244105174.jpg</thumbnail>
+            <gpsX>126.97590740298678</gpsX>
+            <gpsY>37.56677637215592</gpsY>
+        </perforList>
+        <perforList>
+            <seq>276775</seq>
+            <title>고 이건희 회장 기증 국립 제주박물관 특별전 &amp;#39;어느 수집가의 초대&amp;#39;</title>
+            <startDate>20240604</startDate>
+            <endDate>20240818</endDate>
+            <place>국립제주박물관</place>
+            <realmName>미술</realmName>
+            <area>제주</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_202405141627395234.jpg</thumbnail>
+            <gpsX>126.548880801416</gpsX>
+            <gpsY>33.51361569056725</gpsY>
+        </perforList>
+        <perforList>
+            <seq>276159</seq>
+            <title>이현세의 길: K-웹툰 전설의 시작 특별전</title>
+            <startDate>20240510</startDate>
+            <endDate>20240731</endDate>
+            <place>국립중앙도서관</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_2024057183879678.png</thumbnail>
+            <gpsX>127.00298547116853</gpsX>
+            <gpsY>37.49761794050167</gpsY>
+        </perforList>
+        <perforList>
+            <seq>272536</seq>
+            <title>심화전 &amp;lt;옛 그림 속 꽃과 나비&amp;gt;</title>
+            <startDate>20240415</startDate>
+            <endDate>20240728</endDate>
+            <place>국립중앙박물관</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/03/show_202403261639741519.jpg</thumbnail>
+            <gpsX>126.98023689950804</gpsX>
+            <gpsY>37.524063058365286</gpsY>
+        </perforList>
+        <perforList>
+            <seq>279465</seq>
+            <title>우리가 인디언으로 알던 사람들</title>
+            <startDate>20240618</startDate>
+            <endDate>20241009</endDate>
+            <place>국립중앙박물관</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_202406131340649627.jpg</thumbnail>
+            <gpsX>126.98023689950804</gpsX>
+            <gpsY>37.524063058365286</gpsY>
+        </perforList>
+        <perforList>
+            <seq>279466</seq>
+            <title>2024년 한일중 국립박물관 공동특별전 ‘三國三色-동아시아의 칠기’</title>
+            <startDate>20240710</startDate>
+            <endDate>20240922</endDate>
+            <place>국립중앙박물관</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_202406131349310107.JPG</thumbnail>
+            <gpsX>126.98023689950804</gpsX>
+            <gpsY>37.524063058365286</gpsY>
+        </perforList>
+        <perforList>
+            <seq>273736</seq>
+            <title>국립중앙박물관 2024년 괘불전 진천 영수사 괘불</title>
+            <startDate>20240501</startDate>
+            <endDate>20241013</endDate>
+            <place>국립중앙박물관</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/04/show_2024043011313127652.jpg</thumbnail>
+            <gpsX>126.98023689950804</gpsX>
+            <gpsY>37.524063058365286</gpsY>
+        </perforList>
+        <perforList>
+            <seq>276151</seq>
+            <title>국립청주박물관 특별전 &amp;#39;기록 The Record (記錄)&amp;#39;</title>
+            <startDate>20240625</startDate>
+            <endDate>20241103</endDate>
+            <place>국립청주박물관</place>
+            <realmName>미술</realmName>
+            <area>충북</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_202405717245061524.jpg</thumbnail>
+            <gpsX>127.5119657837681</gpsX>
+            <gpsY>36.649792578080444</gpsY>
+        </perforList>
+        <perforList>
+            <seq>276156</seq>
+            <title>다시 찾은 신라의 빛: 선림원 터 금동보살입상</title>
+            <startDate>20240514</startDate>
+            <endDate>20240728</endDate>
+            <place>국립춘천박물관</place>
+            <realmName>미술</realmName>
+            <area>강원</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_202405717401173311.jpg</thumbnail>
+            <gpsX>127.75382208627414</gpsX>
+            <gpsY>37.86412617569438</gpsY>
+        </perforList>
+        <perforList>
+            <seq>265576</seq>
+            <title>국립태권도박물관 태권도아카이브 기획전시 &amp;lt;흑백의 여로旅路&amp;gt;</title>
+            <startDate>20231219</startDate>
+            <endDate>20240714</endDate>
+            <place>국립태권도박물관</place>
+            <realmName>미술</realmName>
+            <area>전북</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/23/12/show_202312201314222023.JPG</thumbnail>
+            <gpsX>127.777378777985</gpsX>
+            <gpsY>36.008596148872</gpsY>
+        </perforList>
+        <perforList>
+            <seq>271906</seq>
+            <title>개관 10주년 기획특별전 &amp;#39;사투리는 못 참지!&amp;#39;</title>
+            <startDate>20240419</startDate>
+            <endDate>20241013</endDate>
+            <place>국립한글박물관</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/03/show_202403201458175627.jpg</thumbnail>
+            <gpsX>126.980486330158</gpsX>
+            <gpsY>37.5210687976885</gpsY>
+        </perforList>
+        <perforList>
+            <seq>276767</seq>
+            <title>MMCA 기증작품전: 1960-70년대 구상회화</title>
+            <startDate>20240521</startDate>
+            <endDate>20240922</endDate>
+            <place>국립현대미술관 과천관</place>
+            <realmName>미술</realmName>
+            <area>경기</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_202405141518150184.jpg</thumbnail>
+            <gpsX>127.02007201176697</gpsX>
+            <gpsY>37.431358136892186</gpsY>
+        </perforList>
+        <perforList>
+            <seq>272528</seq>
+            <title>MMCA 사진 소장품전: 당신의 세상은 지금 몇 시?</title>
+            <startDate>20240327</startDate>
+            <endDate>20240804</endDate>
+            <place>국립현대미술관 과천관</place>
+            <realmName>미술</realmName>
+            <area>경기</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/03/show_202403271657260664.jpg</thumbnail>
+            <gpsX>127.02007201176697</gpsX>
+            <gpsY>37.431358136892186</gpsY>
+        </perforList>
+        <perforList>
+            <seq>267333</seq>
+            <title>MMCA 과천프로젝트 2023: 연결</title>
+            <startDate>20231115</startDate>
+            <endDate>20241020</endDate>
+            <place>국립현대미술관 과천관</place>
+            <realmName>미술</realmName>
+            <area>경기</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/01/show_202401171592220476.png</thumbnail>
+            <gpsX>127.02007201176697</gpsX>
+            <gpsY>37.431358136892186</gpsY>
+        </perforList>
+        <perforList>
+            <seq>275806</seq>
+            <title>한국 근현대 자수: 태양을 잡으려는 새들</title>
+            <startDate>20240501</startDate>
+            <endDate>20240804</endDate>
+            <place>국립현대미술관 덕수궁관</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_202405310355504893.jpg</thumbnail>
+            <gpsX>126.97372877013612</gpsX>
+            <gpsY>37.565967263595226</gpsY>
+        </perforList>
+        <perforList>
+            <seq>272654</seq>
+            <title>가변하는 소장품</title>
+            <startDate>20240329</startDate>
+            <endDate>20240728</endDate>
+            <place>국립현대미술관 서울관</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/03/show_202403281359884621.jpg</thumbnail>
+            <gpsX>126.98010361777375</gpsX>
+            <gpsY>37.578627490528596</gpsY>
+        </perforList>
+        <perforList>
+            <seq>272655</seq>
+            <title>정영선: 이 땅에 숨 쉬는 모든 것을 위하여</title>
+            <startDate>20240405</startDate>
+            <endDate>20240922</endDate>
+            <place>국립현대미술관 서울관</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/03/show_20240328143098330.png</thumbnail>
+            <gpsX>126.98010361777375</gpsX>
+            <gpsY>37.578627490528596</gpsY>
+        </perforList>
+        <perforList>
+            <seq>277350</seq>
+            <title>자연과 인간: 로맨스부터 호러까지</title>
+            <startDate>20240524</startDate>
+            <endDate>20240824</endDate>
+            <place>국립현대미술관 서울관</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_2024052416202395013.png</thumbnail>
+            <gpsX>126.98010361777375</gpsX>
+            <gpsY>37.578627490528596</gpsY>
+        </perforList>
+        <perforList>
+            <seq>276766</seq>
+            <title>사물은 어떤 꿈을 꾸는가</title>
+            <startDate>20240517</startDate>
+            <endDate>20240918</endDate>
+            <place>국립현대미술관 서울관</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_2024051415145827894.jpg</thumbnail>
+            <gpsX>126.98010361777375</gpsX>
+            <gpsY>37.578627490528596</gpsY>
+        </perforList>
+        <perforList>
+            <seq>267331</seq>
+            <title>미술관 길목 프로젝트: 정세인</title>
+            <startDate>20231031</startDate>
+            <endDate>20241031</endDate>
+            <place>국립현대미술관 청주관</place>
+            <realmName>미술</realmName>
+            <area>충북</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/01/show_2024011714443767276.jpg</thumbnail>
+            <gpsX>127.48991744317918</gpsX>
+            <gpsY>36.655449751334245</gpsY>
+        </perforList>
+        <perforList>
+            <seq>272658</seq>
+            <title>예측 (불)가능한 세계</title>
+            <startDate>20240426</startDate>
+            <endDate>20240825</endDate>
+            <place>국립현대미술관 청주관</place>
+            <realmName>미술</realmName>
+            <area>충북</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/03/show_2024032814171463189.jpg</thumbnail>
+            <gpsX>127.48991744317918</gpsX>
+            <gpsY>36.655449751334245</gpsY>
+        </perforList>
+        <perforList>
+            <seq>267335</seq>
+            <title>특별수장고《국립현대 미술관 드로잉소장품》</title>
+            <startDate>20231214</startDate>
+            <endDate>20240731</endDate>
+            <place>국립현대미술관 청주관</place>
+            <realmName>미술</realmName>
+            <area>충북</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/01/show_202401171521453266.png</thumbnail>
+            <gpsX>127.48991744317918</gpsX>
+            <gpsY>36.655449751334245</gpsY>
+        </perforList>
+        <perforList>
+            <seq>268097</seq>
+            <title>[국채보상운동기록전시관] 1907 북후정에 울려퍼진 함성</title>
+            <startDate>20230731</startDate>
+            <endDate>20240831</endDate>
+            <place>국채보상운동기념관</place>
+            <realmName>미술</realmName>
+            <area>대구</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/01/show_2024012916111966817.jpg</thumbnail>
+            <gpsX>128.60175993129096</gpsX>
+            <gpsY>35.86928211260163</gpsY>
+        </perforList>
+        <perforList>
+            <seq>279416</seq>
+            <title>제77회 군산시립합창단 기획 연주회: 노트르담, 그림자속 이야기</title>
+            <startDate>20240704</startDate>
+            <endDate>20240704</endDate>
+            <place>군산예술의전당 소공연장</place>
+            <realmName>음악</realmName>
+            <area>전북</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_2024061121175529516.jpg</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>279850</seq>
+            <title>[군포] 오케스트라 대해부 시즌Ⅲ</title>
+            <startDate>20240713</startDate>
+            <endDate>20240713</endDate>
+            <place>군포문화예술회관 철쭉홀</place>
+            <realmName>음악</realmName>
+            <area>경기</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_202406132120237997.gif</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>280202</seq>
+            <title>선명한 찰나 Once Clear</title>
+            <startDate>20240607</startDate>
+            <endDate>20240705</endDate>
+            <place>금산갤러리</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024061821223152608.jpg</thumbnail>
+            <gpsX>126.983218671611</gpsX>
+            <gpsY>37.5594079371846</gpsY>
+        </perforList>
+        <perforList>
+            <seq>277281</seq>
+            <title>박예지 귀국 플루트 독주회</title>
+            <startDate>20240707</startDate>
+            <endDate>20240707</endDate>
+            <place>금호아트홀 연세</place>
+            <realmName>음악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_2024052314545709496.jpg</thumbnail>
+            <gpsX>126.93655693472036</gpsX>
+            <gpsY>37.56319834462038</gpsY>
+        </perforList>
+        <perforList>
+            <seq>279739</seq>
+            <title>해설이 있는 이아라 바이올린 독주회</title>
+            <startDate>20240708</startDate>
+            <endDate>20240708</endDate>
+            <place>금호아트홀 연세</place>
+            <realmName>음악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_2024061321181028996.jpg</thumbnail>
+            <gpsX>126.93655693472036</gpsX>
+            <gpsY>37.56319834462038</gpsY>
+        </perforList>
+        <perforList>
+            <seq>269579</seq>
+            <title>음악 축제 &amp;lt;수림뉴웨이브  2024&amp;gt;</title>
+            <startDate>20240222</startDate>
+            <endDate>20241031</endDate>
+            <place>김희수아트센터</place>
+            <realmName>국악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/02/show_2024021921462655182.jpg</thumbnail>
+            <gpsX>127.043048689</gpsX>
+            <gpsY>37.5905126252</gpsY>
+        </perforList>
+        <perforList>
+            <seq>279633</seq>
+            <title>&amp;lt;연희 판타지아&amp;gt; </title>
+            <startDate>20240706</startDate>
+            <endDate>20240706</endDate>
+            <place>김희수아트센터 SPACE 1(다목적홀)</place>
+            <realmName>기타</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024061413135501647.jpg</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>275612</seq>
+            <title>메시지를 전달하는 생명의 나무</title>
+            <startDate>20240304</startDate>
+            <endDate>20240731</endDate>
+            <place>꿈의숲아트센터</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/04/show_2024042914551912533.jpg</thumbnail>
+            <gpsX>127.03853560819006</gpsX>
+            <gpsY>37.62148751317226</gpsY>
+        </perforList>
+        <perforList>
+            <seq>280362</seq>
+            <title>[서울남산국악당] 정주리의 일구월심 다섯 번째 &amp;lt;무색하다&amp;gt;</title>
+            <startDate>20240720</startDate>
+            <endDate>20240720</endDate>
+            <place>남산골한옥마을 서울남산국악당 크라운해태홀</place>
+            <realmName>국악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_202406201854316302.jpg</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>279495</seq>
+            <title>[남원] 국보순회전: 모두의 곁으로 ‘순백의 아름다움에 빠지다, 조선백자’</title>
+            <startDate>20240618</startDate>
+            <endDate>20240825</endDate>
+            <place>남원시립김병종미술관</place>
+            <realmName>미술</realmName>
+            <area>전북</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_202406131621037477.jpg</thumbnail>
+            <gpsX>127.38956056851784</gpsX>
+            <gpsY>35.39870867595813</gpsY>
+        </perforList>
+        <perforList>
+            <seq>280473</seq>
+            <title>《비움과 흘려보내기》</title>
+            <startDate>20240611</startDate>
+            <endDate>20240825</endDate>
+            <place>남원시립김병종미술관</place>
+            <realmName>미술</realmName>
+            <area>전북</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024062114153279957.jpg</thumbnail>
+            <gpsX>127.38956056851784</gpsX>
+            <gpsY>35.39870867595813</gpsY>
+        </perforList>
+        <perforList>
+            <seq>278136</seq>
+            <title>더 커진 大邱, 군위를 품은 대구</title>
+            <startDate>20240530</startDate>
+            <endDate>20241124</endDate>
+            <place>대구근대역사관</place>
+            <realmName>미술</realmName>
+            <area>대구</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_2024052815144761767.jpg</thumbnail>
+            <gpsX>128.59114300440234</gpsX>
+            <gpsY>35.87179774625221</gpsY>
+        </perforList>
+        <perforList>
+            <seq>272182</seq>
+            <title>2024 소장품기획전 《회화적 지도 읽기》</title>
+            <startDate>20240409</startDate>
+            <endDate>20240818</endDate>
+            <place>대구미술관</place>
+            <realmName>미술</realmName>
+            <area>대구</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/03/show_2024032215205052665.jpg</thumbnail>
+            <gpsX>128.6743400801662</gpsX>
+            <gpsY>35.82702476034021</gpsY>
+        </perforList>
+        <perforList>
+            <seq>280213</seq>
+            <title>2024 예술창작기반센터 실험적프로젝트Ⅱ&amp;lt;열린경계_춤, 무대미술&amp;gt;</title>
+            <startDate>20240528</startDate>
+            <endDate>20240728</endDate>
+            <place>대구예술발전소</place>
+            <realmName>미술</realmName>
+            <area>대구</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_202406191559616837.png</thumbnail>
+            <gpsX>128.58449494318415</gpsX>
+            <gpsY>35.87543614404081</gpsY>
+        </perforList>
+        <perforList>
+            <seq>280212</seq>
+            <title>불균형에서 오는 퍼텐셜 에너지</title>
+            <startDate>20240423</startDate>
+            <endDate>20240707</endDate>
+            <place>대구예술발전소</place>
+            <realmName>미술</realmName>
+            <area>대구</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_202406191550533498.jpg</thumbnail>
+            <gpsX>128.58449494318415</gpsX>
+            <gpsY>35.87543614404081</gpsY>
+        </perforList>
+        <perforList>
+            <seq>280431</seq>
+            <title>[대구] 오페라 콘체르탄테, 일 트리티코</title>
+            <startDate>20240719</startDate>
+            <endDate>20240719</endDate>
+            <place>대구오페라하우스 대구오페라하우스</place>
+            <realmName>음악</realmName>
+            <area>대구</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_2024061921203047516.gif</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>279584</seq>
+            <title>[대구] 제507회 대구시립교향악단 정기연주회, 브라질에서 온 클래식</title>
+            <startDate>20240712</startDate>
+            <endDate>20240712</endDate>
+            <place>대구콘서트하우스 그랜드홀(대공연장)</place>
+            <realmName>음악</realmName>
+            <area>대구</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_2024061221175273154.gif</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>280289</seq>
+            <title>대구시립교향악단, 실내악의 발견 Ⅰ. 체임버 시리즈 ② 고전적이고, 낭만적으로</title>
+            <startDate>20240717</startDate>
+            <endDate>20240717</endDate>
+            <place>대구콘서트하우스 챔버홀(소공연장)</place>
+            <realmName>음악</realmName>
+            <area>대구</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_202406182119351766.gif</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>274899</seq>
+            <title>2024 대전문학관 기획전시 &amp;lt;명화명시 속 대전&amp;gt;</title>
+            <startDate>20240419</startDate>
+            <endDate>20240825</endDate>
+            <place>대전문학관</place>
+            <realmName>미술</realmName>
+            <area>대전</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/04/show_2024042314562558900.jpg</thumbnail>
+            <gpsX>127.437284178273</gpsX>
+            <gpsY>36.35660360275679</gpsY>
+        </perforList>
+        <perforList>
+            <seq>270998</seq>
+            <title>DMA 소장품 하이라이트 2024</title>
+            <startDate>20240305</startDate>
+            <endDate>20241006</endDate>
+            <place>대전시립미술관</place>
+            <realmName>미술</realmName>
+            <area>대전</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/03/show_202403081843484411.jpg</thumbnail>
+            <gpsX>127.38573164438354</gpsX>
+            <gpsY>36.36690807810214</gpsY>
+        </perforList>
+        <perforList>
+            <seq>278046</seq>
+            <title>&amp;lt;제21회 이동훈미술상 특별상 수상작가전: 이만우, 정철&amp;gt;</title>
+            <startDate>20240604</startDate>
+            <endDate>20240721</endDate>
+            <place>대전시립미술관</place>
+            <realmName>미술</realmName>
+            <area>대전</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_2024052715571887706.jpg</thumbnail>
+            <gpsX>127.38573164438354</gpsX>
+            <gpsY>36.36690807810214</gpsY>
+        </perforList>
+        <perforList>
+            <seq>278044</seq>
+            <title>DMA 캠프 2024 Ⅱ《최애: 내가 혹시 깡패의 순정을 꿈꾸고 있는 것일까》</title>
+            <startDate>20240531</startDate>
+            <endDate>20240723</endDate>
+            <place>대전시립미술관 창작센터</place>
+            <realmName>미술</realmName>
+            <area>대전</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_2024052715544848309.jpg</thumbnail>
+            <gpsX>127.42730563226098</gpsX>
+            <gpsY>36.326747739035234</gpsY>
+        </perforList>
+        <perforList>
+            <seq>270250</seq>
+            <title>[대전] 대전시립연정국악원 K브런치콘서트 우.아.한</title>
+            <startDate>20240327</startDate>
+            <endDate>20241127</endDate>
+            <place>대전시립연정국악원 작은마당</place>
+            <realmName>음악</realmName>
+            <area>대전</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/02/rdf_2024022621185798667.gif</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>270424</seq>
+            <title>대전시립연정국악단 상설공연 [토요국악]</title>
+            <startDate>20240309</startDate>
+            <endDate>20241123</endDate>
+            <place>대전시립연정국악원 작은마당</place>
+            <realmName>국악</realmName>
+            <area>대전</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/02/show_2024022914212471691.jpg</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>279035</seq>
+            <title>[대전] 유벨톤심포니오케스트라, 모차르트 교향곡 전곡 시리즈 11</title>
+            <startDate>20240707</startDate>
+            <endDate>20240707</endDate>
+            <place>대전시립연정국악원 작은마당</place>
+            <realmName>음악</realmName>
+            <area>대전</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_2024060721492336480.gif</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>270937</seq>
+            <title>[대전] 대전시립연정국악원 전통시리즈, 국립국악원 주역 초청: 판소리 다섯마당</title>
+            <startDate>20240328</startDate>
+            <endDate>20241128</endDate>
+            <place>대전시립연정국악원 작은마당</place>
+            <realmName>음악</realmName>
+            <area>대전</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/03/rdf_2024030621455686931.gif</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>279698</seq>
+            <title>[대전시립연정국악단] 풍류마당 필름콘서트 &amp;#39;ON AIR 국악상영관&amp;#39;</title>
+            <startDate>20240718</startDate>
+            <endDate>20240718</endDate>
+            <place>대전시립연정국악원 큰마당</place>
+            <realmName>국악</realmName>
+            <area>대전</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024061416251271612.jpg</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>278884</seq>
+            <title>[대전] 제14회 프랑스뮤지끄연구회 정기연주회</title>
+            <startDate>20240705</startDate>
+            <endDate>20240705</endDate>
+            <place>대전예술의전당 앙상블홀</place>
+            <realmName>음악</realmName>
+            <area>대전</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_2024060521493521352.gif</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>279227</seq>
+            <title>[대전] 이아름 피아노 독주회</title>
+            <startDate>20240710</startDate>
+            <endDate>20240710</endDate>
+            <place>대전예술의전당 앙상블홀</place>
+            <realmName>음악</realmName>
+            <area>대전</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_202406102118722393.gif</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>279097</seq>
+            <title>[대전] 제28회 JMC피아노음악연구회 정기연주회, 피아노로 들려주는 이야기: 동행Ⅲ</title>
+            <startDate>20240709</startDate>
+            <endDate>20240709</endDate>
+            <place>대전예술의전당 앙상블홀</place>
+            <realmName>음악</realmName>
+            <area>대전</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_2024060921181876045.gif</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>279239</seq>
+            <title>[대전] 제4회 리베르테 클라리넷 퀸텟 정기연주회: The Seventh Night July</title>
+            <startDate>20240707</startDate>
+            <endDate>20240707</endDate>
+            <place>대전예술의전당 앙상블홀</place>
+            <realmName>음악</realmName>
+            <area>대전</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_202406102118842586.gif</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>273619</seq>
+            <title>뮤지컬 &amp;lt;협객외전&amp;gt;</title>
+            <startDate>20240416</startDate>
+            <endDate>20240707</endDate>
+            <place>대학로 드림아트센터</place>
+            <realmName>기타</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/04/rdf_2024040521464944771.jpg</thumbnail>
+            <gpsX>127.0032832488189</gpsX>
+            <gpsY>37.5832782493046</gpsY>
+        </perforList>
+        <perforList>
+            <seq>274396</seq>
+            <title>무인도 탈출기</title>
+            <startDate>20240512</startDate>
+            <endDate>20240721</endDate>
+            <place>대학로 드림아트센터</place>
+            <realmName>기타</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/04/rdf_202404181021881604.jpg</thumbnail>
+            <gpsX>127.0032832488189</gpsX>
+            <gpsY>37.5832782493046</gpsY>
+        </perforList>
+        <perforList>
+            <seq>280354</seq>
+            <title>장녀들</title>
+            <startDate>20240728</startDate>
+            <endDate>20240804</endDate>
+            <place>대학로예술극장 소극장</place>
+            <realmName>연극</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_202406201701452285.jpg</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>275345</seq>
+            <title>지역과 함께하는 &amp;lt;석탄시대&amp;gt;</title>
+            <startDate>20240426</startDate>
+            <endDate>20240922</endDate>
+            <place>대한민국역사박물관</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/04/show_2024042616503241140.jpg</thumbnail>
+            <gpsX>126.97778986760616</gpsX>
+            <gpsY>37.574041016221706</gpsY>
+        </perforList>
+        <perforList>
+            <seq>278775</seq>
+            <title>2024 서울시향 퇴근길 토크 콘서트 Ⅱ : 대한성공회 서울주교좌성당</title>
+            <startDate>20240718</startDate>
+            <endDate>20240718</endDate>
+            <place>대한성공회 서울주교좌성당</place>
+            <realmName>음악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024060513375159158.png</thumbnail>
+            <gpsX>126.97551665620666</gpsX>
+            <gpsY>37.567508350885205</gpsY>
+        </perforList>
+        <perforList>
+            <seq>278777</seq>
+            <title>2024 서울시향 우리동네 음악회(관현악) : 도봉구민회관 하모니홀</title>
+            <startDate>20240703</startDate>
+            <endDate>20240703</endDate>
+            <place>도봉구민회관 대강당(하모니홀)</place>
+            <realmName>음악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024060513434526408.png</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>280010</seq>
+            <title>미디어아트페스티벌 돈의문프리즘 展</title>
+            <startDate>20240601</startDate>
+            <endDate>20240831</endDate>
+            <place>돈의문박물관마을</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024061714354056465.png</thumbnail>
+            <gpsX>126.96852652207318</gpsX>
+            <gpsY>37.56882214799335</gpsY>
+        </perforList>
+        <perforList>
+            <seq>278915</seq>
+            <title>2024 카즈미 타테이시 트리오 내한공연-지브리, 재즈를 만나다-</title>
+            <startDate>20240828</startDate>
+            <endDate>20240828</endDate>
+            <place>동래문화회관 대극장</place>
+            <realmName>음악</realmName>
+            <area>부산</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024060713444040090.jpg</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>256710</seq>
+            <title>박노해 사진전 &amp;lt;올리브나무 아래&amp;gt;</title>
+            <startDate>20231004</startDate>
+            <endDate>20240825</endDate>
+            <place>라 카페 갤러리</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/23/09/show_202309221684266343.jpg</thumbnail>
+            <gpsX>126.97302219031108</gpsX>
+            <gpsY>37.579292820161356</gpsY>
+        </perforList>
+        <perforList>
+            <seq>279521</seq>
+            <title>[2024 클래식다방 - 라율아트홀] 고고(古古)한 바로크 - Baroque Music in Cinema</title>
+            <startDate>20240720</startDate>
+            <endDate>20240720</endDate>
+            <place>라율아트홀</place>
+            <realmName>음악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024061817495312568.jpg</thumbnail>
+            <gpsX>127.01260654078582</gpsX>
+            <gpsY>37.482437579288856</gpsY>
+        </perforList>
+        <perforList>
+            <seq>279029</seq>
+            <title>프로옉트 에스체트 정기연주회</title>
+            <startDate>20240707</startDate>
+            <endDate>20240707</endDate>
+            <place>로데아트센터</place>
+            <realmName>음악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_2024060721475859329.gif</thumbnail>
+            <gpsX>127.0103014</gpsX>
+            <gpsY>37.4831337</gpsY>
+        </perforList>
+        <perforList>
+            <seq>279951</seq>
+            <title>마비노기 20주년 오케스트라 콘서트: 별을 위하여 (07.13)</title>
+            <startDate>20240713</startDate>
+            <endDate>20240713</endDate>
+            <place>롯데콘서트홀</place>
+            <realmName>음악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_2024061421183458355.jpg</thumbnail>
+            <gpsX>127.10444609228385</gpsX>
+            <gpsY>37.51374709658873</gpsY>
+        </perforList>
+        <perforList>
+            <seq>278654</seq>
+            <title>제16회 서울 나눔 클라리넷 앙상블 정기연주회</title>
+            <startDate>20240701</startDate>
+            <endDate>20240701</endDate>
+            <place>롯데콘서트홀</place>
+            <realmName>음악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_2024060121193007389.jpg</thumbnail>
+            <gpsX>127.10444609228385</gpsX>
+            <gpsY>37.51374709658873</gpsY>
+        </perforList>
+        <perforList>
+            <seq>278774</seq>
+            <title>2024 서울시향 김은선과 스티븐 허프 ①, ②</title>
+            <startDate>20240710</startDate>
+            <endDate>20240711</endDate>
+            <place>롯데콘서트홀</place>
+            <realmName>음악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024061817473450404.jpg</thumbnail>
+            <gpsX>127.10444609228385</gpsX>
+            <gpsY>37.51374709658873</gpsY>
+        </perforList>
+        <perforList>
+            <seq>279614</seq>
+            <title>[2024 클래식다방 - 르네뮤직홀] 바리톤X뮤지컬배우 특별한 콘서트</title>
+            <startDate>20240706</startDate>
+            <endDate>20240706</endDate>
+            <place>르네뮤직홀</place>
+            <realmName>기타</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024061817504349524.jpg</thumbnail>
+            <gpsX>127.013426296474</gpsX>
+            <gpsY>37.4827051786813</gpsY>
+        </perforList>
+        <perforList>
+            <seq>280201</seq>
+            <title>The Moment</title>
+            <startDate>20240613</startDate>
+            <endDate>20240713</endDate>
+            <place>린파인아트 갤러리</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024061821223046810.jpg</thumbnail>
+            <gpsX>127.19204652447</gpsX>
+            <gpsY>37.57657762204</gpsY>
+        </perforList>
+        <perforList>
+            <seq>279870</seq>
+            <title>맥화랑초대 박진성개인전 《MISTER》</title>
+            <startDate>20240615</startDate>
+            <endDate>20240713</endDate>
+            <place>맥화랑</place>
+            <realmName>미술</realmName>
+            <area>부산</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024061421215413363.jpg</thumbnail>
+            <gpsX>129.185319671838</gpsX>
+            <gpsY>35.1634759733709</gpsY>
+        </perforList>
+        <perforList>
+            <seq>277221</seq>
+            <title>몽양여운형 탄신 138주년 기념 특별기획전 &amp;#39;봄이 왓다&amp;#39;</title>
+            <startDate>20240524</startDate>
+            <endDate>20240831</endDate>
+            <place>몽양기념관</place>
+            <realmName>미술</realmName>
+            <area>경기</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_2024052110581168344.jpg</thumbnail>
+            <gpsX>127.37352781722372</gpsX>
+            <gpsY>37.53046578031456</gpsY>
+        </perforList>
+        <perforList>
+            <seq>273073</seq>
+            <title>2024 무계원 별채 지역작가 展 &amp;lt;동행(同行)&amp;gt;</title>
+            <startDate>20240405</startDate>
+            <endDate>20240731</endDate>
+            <place>무계원</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/04/show_202404116333296686.jpg</thumbnail>
+            <gpsX>126.96337056282593</gpsX>
+            <gpsY>37.59191313156776</gpsY>
+        </perforList>
+        <perforList>
+            <seq>279629</seq>
+            <title>2024 무안군오승우미술관 박광진 화백 기증전 &amp;lt;자연의 소리&amp;gt;</title>
+            <startDate>20240525</startDate>
+            <endDate>20240728</endDate>
+            <place>무안군오승우미술관</place>
+            <realmName>미술</realmName>
+            <area>전남</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_202406141135466005.jpg</thumbnail>
+            <gpsX>126.415283310838</gpsX>
+            <gpsY>34.8525750169448</gpsY>
+        </perforList>
+        <perforList>
+            <seq>279158</seq>
+            <title>NEVERLAND - 장은경 기획 초대전</title>
+            <startDate>20240615</startDate>
+            <endDate>20240721</endDate>
+            <place>문화공장 방어진</place>
+            <realmName>미술</realmName>
+            <area>울산</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_202406111403981164.jpg</thumbnail>
+            <gpsX>129.424264593153</gpsX>
+            <gpsY>35.4836734720261</gpsY>
+        </perforList>
+        <perforList>
+            <seq>269846</seq>
+            <title>인간, A.I를 만나다 : Harmony of Minds</title>
+            <startDate>20240315</startDate>
+            <endDate>20240804</endDate>
+            <place>미디어 아트 갤러리 언더독뮤지엄</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024061416225244180.jpg</thumbnail>
+            <gpsX>126.917959241088</gpsX>
+            <gpsY>37.5516642144107</gpsY>
+        </perforList>
+        <perforList>
+            <seq>276416</seq>
+            <title>2024 심산 영화관 &amp;lt;포레스트 검프&amp;gt;</title>
+            <startDate>20240702</startDate>
+            <endDate>20240702</endDate>
+            <place>반포심산아트홀</place>
+            <realmName>기타</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_2024051010195219500.jpg</thumbnail>
+            <gpsX>126.990515657787</gpsX>
+            <gpsY>37.4988531475655</gpsY>
+        </perforList>
+        <perforList>
+            <seq>276414</seq>
+            <title>서리풀 전곡 연주 시리즈 &amp;lt;하이든 교향곡 전곡 시리즈 25&amp;gt;</title>
+            <startDate>20240716</startDate>
+            <endDate>20240716</endDate>
+            <place>반포심산아트홀</place>
+            <realmName>음악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_2024051010141854533.jpg</thumbnail>
+            <gpsX>126.990515657787</gpsX>
+            <gpsY>37.4988531475655</gpsY>
+        </perforList>
+        <perforList>
+            <seq>280452</seq>
+            <title>해설이 있는 앙상블 플레이리스트 Ep.2</title>
+            <startDate>20240705</startDate>
+            <endDate>20240705</endDate>
+            <place>반포심산아트홀</place>
+            <realmName>음악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024062023294382209.png</thumbnail>
+            <gpsX>126.990515657787</gpsX>
+            <gpsY>37.4988531475655</gpsY>
+        </perforList>
+        <perforList>
+            <seq>270200</seq>
+            <title>빅브라더 블록체인</title>
+            <startDate>20240321</startDate>
+            <endDate>20240818</endDate>
+            <place>백남준아트센터</place>
+            <realmName>미술</realmName>
+            <area>경기</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/03/show_2024032118154996660.jpg</thumbnail>
+            <gpsX>127.11037318643987</gpsX>
+            <gpsY>37.26927634736376</gpsY>
+        </perforList>
+        <perforList>
+            <seq>278701</seq>
+            <title>뮤지컬 헬로카봇 시즌8 &amp;lt;미래연구소를 지켜라!&amp;gt;</title>
+            <startDate>20240727</startDate>
+            <endDate>20240818</endDate>
+            <place>백암아트홀</place>
+            <realmName>기타</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_202406041432110663.jpg</thumbnail>
+            <gpsX>127.0659941353687</gpsX>
+            <gpsY>37.51042085124992</gpsY>
+        </perforList>
+        <perforList>
+            <seq>279469</seq>
+            <title>[보령] 국보순회전: 모두의 곁으로 ‘금관총 금관, 그리고 이사지왕’</title>
+            <startDate>20240606</startDate>
+            <endDate>20240901</endDate>
+            <place>보령석탄박물관</place>
+            <realmName>미술</realmName>
+            <area>충남</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_202406131413365921.jpg</thumbnail>
+            <gpsX>126.652714153</gpsX>
+            <gpsY>36.3261238667</gpsY>
+        </perforList>
+        <perforList>
+            <seq>280334</seq>
+            <title>완주팔괴(完州八怪)</title>
+            <startDate>20240627</startDate>
+            <endDate>20240804</endDate>
+            <place>복합문화지구 누에</place>
+            <realmName>미술</realmName>
+            <area>전북</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024062010302176398.jpg</thumbnail>
+            <gpsX>127.159881573245</gpsX>
+            <gpsY>35.9064192920023</gpsY>
+        </perforList>
+        <perforList>
+            <seq>278340</seq>
+            <title>2024 기억공작소Ⅱ 안종연展</title>
+            <startDate>20240508</startDate>
+            <endDate>20240714</endDate>
+            <place>봉산문화회관</place>
+            <realmName>미술</realmName>
+            <area>대구</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_2024053012275195690.jpg</thumbnail>
+            <gpsX>128.59655667130733</gpsX>
+            <gpsY>35.863363294997676</gpsY>
+        </perforList>
+        <perforList>
+            <seq>278241</seq>
+            <title>부산의 기억, 도시스케치</title>
+            <startDate>20240611</startDate>
+            <endDate>20240811</endDate>
+            <place>부산근현대역사관</place>
+            <realmName>미술</realmName>
+            <area>부산</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_202405291556497462.jpg</thumbnail>
+            <gpsX>129.03115743606858</gpsX>
+            <gpsY>35.102666098157776</gpsY>
+        </perforList>
+        <perforList>
+            <seq>278240</seq>
+            <title>2024년 금고미술관 기획 전시 - 원도심, 회상의 색채</title>
+            <startDate>20240528</startDate>
+            <endDate>20240721</endDate>
+            <place>부산근현대역사관</place>
+            <realmName>미술</realmName>
+            <area>부산</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_2024052915512417865.jpg</thumbnail>
+            <gpsX>129.03115743606858</gpsX>
+            <gpsY>35.102666098157776</gpsY>
+        </perforList>
+        <perforList>
+            <seq>280310</seq>
+            <title>[부산] 제57회 인코리안심포니오케스트라 정기연주회</title>
+            <startDate>20240718</startDate>
+            <endDate>20240718</endDate>
+            <place>부산문화회관 대극장</place>
+            <realmName>음악</realmName>
+            <area>부산</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_2024061821191211268.gif</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>279603</seq>
+            <title>[부산] 히사이시조 &amp; 지브리 영화음악 심포니 콘서트 with 오케스트라</title>
+            <startDate>20240712</startDate>
+            <endDate>20240712</endDate>
+            <place>부산문화회관 대극장</place>
+            <realmName>음악</realmName>
+            <area>부산</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_202406122120304008.gif</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>278128</seq>
+            <title>수집가傳 : 수집의 즐거움 공감의 기쁨</title>
+            <startDate>20240426</startDate>
+            <endDate>20240707</endDate>
+            <place>부산박물관</place>
+            <realmName>미술</realmName>
+            <area>부산</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_2024052813581909170.jpg</thumbnail>
+            <gpsX>129.09481476326917</gpsX>
+            <gpsY>35.12961757830246</gpsY>
+        </perforList>
+        <perforList>
+            <seq>280338</seq>
+            <title>2024 k-museums 공동기획전, &quot;노릇노릇 부산&quot;</title>
+            <startDate>20240625</startDate>
+            <endDate>20241201</endDate>
+            <place>부산해양자연사박물관</place>
+            <realmName>미술</realmName>
+            <area>부산</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024062011275876400.jpg</thumbnail>
+            <gpsX>129.075839921274</gpsX>
+            <gpsY>35.2218081163841</gpsY>
+        </perforList>
+        <perforList>
+            <seq>271897</seq>
+            <title>소장품섬_마크 리: 나의 집이었던 곳 / STUDIO 1750: LMO 3116</title>
+            <startDate>20240316</startDate>
+            <endDate>20240707</endDate>
+            <place>부산현대미술관</place>
+            <realmName>미술</realmName>
+            <area>부산</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/03/show_202403181154663170.jpg</thumbnail>
+            <gpsX>128.9427422591895</gpsX>
+            <gpsY>35.10921642590141</gpsY>
+        </perforList>
+        <perforList>
+            <seq>270122</seq>
+            <title>이것은 부산이 아니다: 전술적 실천</title>
+            <startDate>20240224</startDate>
+            <endDate>20240707</endDate>
+            <place>부산현대미술관</place>
+            <realmName>미술</realmName>
+            <area>부산</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/02/show_202402261224716084.png</thumbnail>
+            <gpsX>128.9427422591895</gpsX>
+            <gpsY>35.10921642590141</gpsY>
+        </perforList>
+        <perforList>
+            <seq>271896</seq>
+            <title>능수능란한 관종</title>
+            <startDate>20240316</startDate>
+            <endDate>20240707</endDate>
+            <place>부산현대미술관</place>
+            <realmName>미술</realmName>
+            <area>부산</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/03/show_2024031811513413598.jpg</thumbnail>
+            <gpsX>128.9427422591895</gpsX>
+            <gpsY>35.10921642590141</gpsY>
+        </perforList>
+        <perforList>
+            <seq>278697</seq>
+            <title>부산현대미술관 소장품 상설전《소장품섬_마크 리: 나의 집이었던 곳 / STUDIO 1750: LMO 3116》</title>
+            <startDate>20240316</startDate>
+            <endDate>20240707</endDate>
+            <place>부산현대미술관</place>
+            <realmName>미술</realmName>
+            <area>부산</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_202406041343348701.JPG</thumbnail>
+            <gpsX>128.9427422591895</gpsX>
+            <gpsY>35.10921642590141</gpsY>
+        </perforList>
+        <perforList>
+            <seq>278696</seq>
+            <title>부산현대미술관 기획전《능수능란한 관종》</title>
+            <startDate>20240316</startDate>
+            <endDate>20240707</endDate>
+            <place>부산현대미술관</place>
+            <realmName>미술</realmName>
+            <area>부산</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_202406041122900423.png</thumbnail>
+            <gpsX>128.9427422591895</gpsX>
+            <gpsY>35.10921642590141</gpsY>
+        </perforList>
+        <perforList>
+            <seq>278695</seq>
+            <title>부산현대미술관 기획전《이것은 부산이 아니다: 전술적 실천》</title>
+            <startDate>20240224</startDate>
+            <endDate>20240707</endDate>
+            <place>부산현대미술관</place>
+            <realmName>미술</realmName>
+            <area>부산</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024060411202819811.png</thumbnail>
+            <gpsX>128.9427422591895</gpsX>
+            <gpsY>35.10921642590141</gpsY>
+        </perforList>
+        <perforList>
+            <seq>277220</seq>
+            <title>수주문학관 기획전시「수주 변영로와 그의 시대」展 </title>
+            <startDate>20240514</startDate>
+            <endDate>20240913</endDate>
+            <place>부천시립박물관</place>
+            <realmName>미술</realmName>
+            <area>경기</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_2024052110483538232.png</thumbnail>
+            <gpsX>126.80176291635816</gpsX>
+            <gpsY>37.5137350444611</gpsY>
+        </perforList>
+        <perforList>
+            <seq>278123</seq>
+            <title>부천문화재단 뮤직바캉스 한여름밤의 재즈</title>
+            <startDate>20240710</startDate>
+            <endDate>20240719</endDate>
+            <place>부천시민회관 소공연장</place>
+            <realmName>음악</realmName>
+            <area>경기</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_2024052813222863837.jpg</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>279397</seq>
+            <title>제317회 부천필하모닉오케스트라 정기연주회, 지휘자와 작곡가 Ⅴ: 이승원과 슈베르트</title>
+            <startDate>20240711</startDate>
+            <endDate>20240711</endDate>
+            <place>부천아트센터 콘서트홀</place>
+            <realmName>음악</realmName>
+            <area>경기</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_2024061121183726338.jpg</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>280016</seq>
+            <title>2024 상상톡톡미술관 기획전시 톡!톡! 뮤지엄</title>
+            <startDate>20240709</startDate>
+            <endDate>20241013</endDate>
+            <place>북서울 꿈의숲 상상톡톡미술관</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024061715262877964.png</thumbnail>
+            <gpsX>127.04143596895246</gpsX>
+            <gpsY>37.62250014118607</gpsY>
+        </perforList>
+        <perforList>
+            <seq>279935</seq>
+            <title>제1회 작곡살롱 기획연주회, 마음의 소리를 찾아서</title>
+            <startDate>20240713</startDate>
+            <endDate>20240713</endDate>
+            <place>브라움홀</place>
+            <realmName>음악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_2024061421183258533.gif</thumbnail>
+            <gpsX>127.0058377</gpsX>
+            <gpsY>37.4802751</gpsY>
+        </perforList>
+        <perforList>
+            <seq>279616</seq>
+            <title>비오케이 아트센터 초대전 &amp;#39;Feel &amp; Fill&amp;#39;</title>
+            <startDate>20240625</startDate>
+            <endDate>20240707</endDate>
+            <place>비오케이아트센터(BOK아트센터)</place>
+            <realmName>미술</realmName>
+            <area>세종</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_202406149583264782.jpg</thumbnail>
+            <gpsX>127.30326998956302</gpsX>
+            <gpsY>36.492355992753936</gpsY>
+        </perforList>
+        <perforList>
+            <seq>279618</seq>
+            <title>듀오 리사이틀</title>
+            <startDate>20240817</startDate>
+            <endDate>20240817</endDate>
+            <place>비오케이아트센터(BOK아트센터) 다목적공연장</place>
+            <realmName>음악</realmName>
+            <area>세종</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_202406141065597933.jpg</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>278256</seq>
+            <title>세종 유스 실내악 페스티벌</title>
+            <startDate>20240720</startDate>
+            <endDate>20240720</endDate>
+            <place>비오케이아트센터(BOK아트센터) 다목적공연장</place>
+            <realmName>음악</realmName>
+            <area>세종</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_202405291829017979.png</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>279620</seq>
+            <title>세종리틀싱어즈 &amp; 예원클래식 앙상블 희망 가득 콘서트 &amp;#39;함께&amp;#39;</title>
+            <startDate>20240723</startDate>
+            <endDate>20240723</endDate>
+            <place>비오케이아트센터(BOK아트센터) 다목적공연장</place>
+            <realmName>음악</realmName>
+            <area>세종</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024061410233458558.jpg</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>269631</seq>
+            <title>서원의 시간을 걷다</title>
+            <startDate>20231128</startDate>
+            <endDate>20240901</endDate>
+            <place>삼성현역사문화공원</place>
+            <realmName>미술</realmName>
+            <area>경북</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/02/show_202402211622490659.jpg</thumbnail>
+            <gpsX>128.7966093974113</gpsX>
+            <gpsY>35.801685485994085</gpsY>
+        </perforList>
+        <perforList>
+            <seq>273058</seq>
+            <title>[상도어울마당 아트홀] 정기 기획공연 &amp;lt;PLAY 180&amp;gt; </title>
+            <startDate>20240427</startDate>
+            <endDate>20241026</endDate>
+            <place>상도어울마당 아트홀</place>
+            <realmName>음악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/04/show_2024040111511881528.jpg</thumbnail>
+            <gpsX>126.940372169449</gpsX>
+            <gpsY>37.4992554654409</gpsY>
+        </perforList>
+        <perforList>
+            <seq>279700</seq>
+            <title>코믹힐링 캠핑연극 &amp;lt;별이 빛나는 밤에&amp;gt;</title>
+            <startDate>20240705</startDate>
+            <endDate>20241231</endDate>
+            <place>상명아트홀 1관</place>
+            <realmName>연극</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024061417144595112.png</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>279493</seq>
+            <title>[상주] 국보순회전: 모두의 곁으로 ‘영원한 동행, 상형토기 이야기’</title>
+            <startDate>20240610</startDate>
+            <endDate>20240901</endDate>
+            <place>상주박물관</place>
+            <realmName>미술</realmName>
+            <area>경북</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024061316131636795.jpg</thumbnail>
+            <gpsX>128.24114218242642</gpsX>
+            <gpsY>36.46002785592129</gpsY>
+        </perforList>
+        <perforList>
+            <seq>280315</seq>
+            <title>연극 &amp;lt;꽃, 별이 지나&amp;gt;</title>
+            <startDate>20240608</startDate>
+            <endDate>20240818</endDate>
+            <place>서경대학교 공연예술센터 스콘1관</place>
+            <realmName>연극</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024062018481014670.jpeg</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>279523</seq>
+            <title>[2024 클래식다방 - 서리풀 아트홀] 뉴올리언즈로 떠나는 재즈여행!</title>
+            <startDate>20240727</startDate>
+            <endDate>20240727</endDate>
+            <place>서리풀 아트홀</place>
+            <realmName>음악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024061817493837474.jpg</thumbnail>
+            <gpsX>127.0099787</gpsX>
+            <gpsY>37.4831234</gpsY>
+        </perforList>
+        <perforList>
+            <seq>273948</seq>
+            <title>[서면미술관 - 부산] 2024년 신규 전시 &amp;lt;육각형 인간&amp;gt;</title>
+            <startDate>20240321</startDate>
+            <endDate>20241013</endDate>
+            <place>서면미술관</place>
+            <realmName>미술</realmName>
+            <area>부산</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/04/show_2024041615172165902.jpg</thumbnail>
+            <gpsX>129.0625728779338</gpsX>
+            <gpsY>35.153934489091164</gpsY>
+        </perforList>
+        <perforList>
+            <seq>278245</seq>
+            <title>장식 너머 발언: 한국-오스트리아 현대장신구 교류전</title>
+            <startDate>20240528</startDate>
+            <endDate>20240728</endDate>
+            <place>서울공예박물관</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_202405291653678731.jpg</thumbnail>
+            <gpsX>126.98352860938915</gpsX>
+            <gpsY>37.57664583078057</gpsY>
+        </perforList>
+        <perforList>
+            <seq>280009</seq>
+            <title>공예@쇼윈도 #2 &amp;lt;영원한 꽃, an eternal flower&amp;gt;</title>
+            <startDate>20240524</startDate>
+            <endDate>20240714</endDate>
+            <place>서울공예박물관</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024061714254724578.jpg</thumbnail>
+            <gpsX>126.98352860938915</gpsX>
+            <gpsY>37.57664583078057</gpsY>
+        </perforList>
+        <perforList>
+            <seq>279340</seq>
+            <title>미적감각(美的感覺)</title>
+            <startDate>20240613</startDate>
+            <endDate>20240825</endDate>
+            <place>서울대학교 미술관</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_202406121734336536.jpg</thumbnail>
+            <gpsX>126.94969759776359</gpsX>
+            <gpsY>37.46647966793395</gpsY>
+        </perforList>
+        <perforList>
+            <seq>279453</seq>
+            <title>서울돈화문국악당 2024 일무일악一舞一樂</title>
+            <startDate>20240717</startDate>
+            <endDate>20240719</endDate>
+            <place>서울돈화문국악당</place>
+            <realmName>국악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_202406139232890167.jpg</thumbnail>
+            <gpsX>126.99066047282317</gpsX>
+            <gpsY>37.577277306497805</gpsY>
+        </perforList>
+        <perforList>
+            <seq>275608</seq>
+            <title>서울의 젊은이와 대중가요</title>
+            <startDate>20240503</startDate>
+            <endDate>20240922</endDate>
+            <place>서울생활사박물관</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/04/show_202404291420547722.jpg</thumbnail>
+            <gpsX>127.0769339228722</gpsX>
+            <gpsY>37.62016679911242</gpsY>
+        </perforList>
+        <perforList>
+            <seq>278025</seq>
+            <title>2024 아티스트라이브 페스티벌 인 서울</title>
+            <startDate>20240713</startDate>
+            <endDate>20240817</endDate>
+            <place>서울숲 스튜디오301</place>
+            <realmName>음악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_2024052521505620084.jpeg</thumbnail>
+            <gpsX>127.0413188</gpsX>
+            <gpsY>37.5478626</gpsY>
+        </perforList>
+        <perforList>
+            <seq>274908</seq>
+            <title>서울 : 서울, 어디에나 있고 아무데도 없는 강홍구의 서울</title>
+            <startDate>20240502</startDate>
+            <endDate>20240804</endDate>
+            <place>서울시립 미술아카이브</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/04/show_2024042315333364762.png</thumbnail>
+            <gpsX>126.97189069644192</gpsX>
+            <gpsY>37.60779993631416</gpsY>
+        </perforList>
+        <perforList>
+            <seq>274904</seq>
+            <title>《소원을 말해봐 Make A Wish》</title>
+            <startDate>20240423</startDate>
+            <endDate>20240804</endDate>
+            <place>서울시립 북서울미술관</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/04/show_2024042315185304207.jpg</thumbnail>
+            <gpsX>127.06680335608173</gpsX>
+            <gpsY>37.64089114205458</gpsY>
+        </perforList>
+        <perforList>
+            <seq>278778</seq>
+            <title>2024 서울시향 우리동네 음악회(관현악) : 서울시립대학교 음악관</title>
+            <startDate>20240712</startDate>
+            <endDate>20240712</endDate>
+            <place>서울시립대학교 음악관</place>
+            <realmName>음악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_202406051346208339.png</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>273302</seq>
+            <title>《미래긍정: 노먼 포스터, 포스터 + 파트너스》</title>
+            <startDate>20240425</startDate>
+            <endDate>20240721</endDate>
+            <place>서울시립미술관</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/04/show_202404231535783409.jpg</thumbnail>
+            <gpsX>126.97376336838333</gpsX>
+            <gpsY>37.564138249101916</gpsY>
+        </perforList>
+        <perforList>
+            <seq>272471</seq>
+            <title>시공時空 시나리오</title>
+            <startDate>20240404</startDate>
+            <endDate>20240707</endDate>
+            <place>서울시립미술관</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/03/show_2024032515373573235.png</thumbnail>
+            <gpsX>126.97376336838333</gpsX>
+            <gpsY>37.564138249101916</gpsY>
+        </perforList>
+        <perforList>
+            <seq>246391</seq>
+            <title>80 도시현실</title>
+            <startDate>20230525</startDate>
+            <endDate>20240804</endDate>
+            <place>서울시립미술관</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/23/05/show_2023052513113317501.jpg</thumbnail>
+            <gpsX>126.97376336838333</gpsX>
+            <gpsY>37.564138249101916</gpsY>
+        </perforList>
+        <perforList>
+            <seq>273301</seq>
+            <title>건축주제기획전 《길드는 서로들》</title>
+            <startDate>20240410</startDate>
+            <endDate>20240707</endDate>
+            <place>서울시립미술관 남서울미술관</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/04/show_202404414322169655.jpg</thumbnail>
+            <gpsX>126.97949210876725</gpsX>
+            <gpsY>37.4759852455232</gpsY>
+        </perforList>
+        <perforList>
+            <seq>273239</seq>
+            <title>영혼은 없고 껍데기만</title>
+            <startDate>20240423</startDate>
+            <endDate>20240804</endDate>
+            <place>서울시립미술관 북서울미술관</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/04/show_202404231585624057.jpg</thumbnail>
+            <gpsX>127.06685980156716</gpsX>
+            <gpsY>37.64066135905104</gpsY>
+        </perforList>
+        <perforList>
+            <seq>275609</seq>
+            <title>국제교류전 &amp;lt;전쟁을 겪은 어린이들의 이야기&amp;gt;</title>
+            <startDate>20240504</startDate>
+            <endDate>20240825</endDate>
+            <place>서울역사박물관</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/04/show_202404291426434484.jpg</thumbnail>
+            <gpsX>126.97055200780038</gpsX>
+            <gpsY>37.57054807685902</gpsY>
+        </perforList>
+        <perforList>
+            <seq>279625</seq>
+            <title>연극 &amp;lt;가족의 탄생&amp;gt; : 극단 가탄 10주년 기념 공연</title>
+            <startDate>20240703</startDate>
+            <endDate>20240721</endDate>
+            <place>선돌극장</place>
+            <realmName>연극</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_202406141162232192.jpg</thumbnail>
+            <gpsX>126.99977638877492</gpsX>
+            <gpsY>37.58684172252058</gpsY>
+        </perforList>
+        <perforList>
+            <seq>272649</seq>
+            <title>2024 선릉아트홀 전통예술 기획공연 제6회 [불휘기픈소리]</title>
+            <startDate>20240406</startDate>
+            <endDate>20240731</endDate>
+            <place>선릉아트홀(구. 아트홀 가얏고을)</place>
+            <realmName>국악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/03/show_2024032815322762856.jpg</thumbnail>
+            <gpsX>127.04845068827429</gpsX>
+            <gpsY>37.50479131192665</gpsY>
+        </perforList>
+        <perforList>
+            <seq>278780</seq>
+            <title>[서울/혜화] 뮤지컬 &amp;lt;바다 100층짜리 집&amp;gt;</title>
+            <startDate>20240706</startDate>
+            <endDate>20240815</endDate>
+            <place>성균관대학교 새천년홀</place>
+            <realmName>기타</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024060515472030358.jpg</thumbnail>
+            <gpsX>126.99453138765935</gpsX>
+            <gpsY>37.58744526122703</gpsY>
+        </perforList>
+        <perforList>
+            <seq>279297</seq>
+            <title>2024 제2회 연무 전통 페스티벌</title>
+            <startDate>20240619</startDate>
+            <endDate>20240703</endDate>
+            <place>성균소극장</place>
+            <realmName>무용</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024061214274486615.jpg</thumbnail>
+            <gpsX>126.99800172353825</gpsX>
+            <gpsY>37.58414998908839</gpsY>
+        </perforList>
+        <perforList>
+            <seq>280485</seq>
+            <title>도시를 다시 상상하다 Re-Imagining the City</title>
+            <startDate>20240708</startDate>
+            <endDate>20240804</endDate>
+            <place>성남큐브미술관</place>
+            <realmName>미술</realmName>
+            <area>경기</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024062115464998472.jpg</thumbnail>
+            <gpsX>127.129543286097</gpsX>
+            <gpsY>37.4012056586716</gpsY>
+        </perforList>
+        <perforList>
+            <seq>280484</seq>
+            <title>성남작가조명전 3 &amp;lt;이계진: 우연한 삶&amp;gt;</title>
+            <startDate>20240628</startDate>
+            <endDate>20240818</endDate>
+            <place>성남큐브미술관</place>
+            <realmName>미술</realmName>
+            <area>경기</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024062115393124182.jpg</thumbnail>
+            <gpsX>127.129543286097</gpsX>
+            <gpsY>37.4012056586716</gpsY>
+        </perforList>
+        <perforList>
+            <seq>279349</seq>
+            <title>2024 성북구립미술관 기획전시《김도희 · 빛선소리》</title>
+            <startDate>20240530</startDate>
+            <endDate>20240720</endDate>
+            <place>성북예술창작터</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024061217452964095.jpg</thumbnail>
+            <gpsX>127.00412990757968</gpsX>
+            <gpsY>37.59003116427801</gpsY>
+        </perforList>
+        <perforList>
+            <seq>275611</seq>
+            <title>아뜰리에광화: 메타네이처</title>
+            <startDate>20240401</startDate>
+            <endDate>20240731</endDate>
+            <place>세종문화회관</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/04/show_2024042914471483885.jpg</thumbnail>
+            <gpsX>126.97584322994113</gpsX>
+            <gpsY>37.57271617146049</gpsY>
+        </perforList>
+        <perforList>
+            <seq>275616</seq>
+            <title>스튜디오 지브리- 타카하타 이사오 展</title>
+            <startDate>20240426</startDate>
+            <endDate>20240803</endDate>
+            <place>세종문화회관 미술관</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/04/show_2024042915165673763.jpg</thumbnail>
+            <gpsX>126.97618593663877</gpsX>
+            <gpsY>37.57184227589098</gpsY>
+        </perforList>
+        <perforList>
+            <seq>278739</seq>
+            <title>제360회 서울시국악관현악단 정기연주회 2024 음악극 [ 숨ː ]</title>
+            <startDate>20240703</startDate>
+            <endDate>20240703</endDate>
+            <place>세종문화회관 세종M씨어터</place>
+            <realmName>음악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024061317344816874.jpg</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>279162</seq>
+            <title>박다울X유태평양X류성실 &amp;lt;돌고 돌고&amp;gt; - Sync Next 24</title>
+            <startDate>20240711</startDate>
+            <endDate>20240712</endDate>
+            <place>세종문화회관 세종S씨어터</place>
+            <realmName>국악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024061117483627838.jpg</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>279161</seq>
+            <title>김오키 새턴발라드 &amp;lt;러브 인 새턴&amp;gt; - Sync Next 24</title>
+            <startDate>20240705</startDate>
+            <endDate>20240706</endDate>
+            <place>세종문화회관 세종S씨어터</place>
+            <realmName>음악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024061117453603312.jpg</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>279163</seq>
+            <title>조영숙X장영규X박민희 &amp;lt;조 도깨비 영숙&amp;gt; - Sync Next 24</title>
+            <startDate>20240726</startDate>
+            <endDate>20240727</endDate>
+            <place>세종문화회관 세종S씨어터</place>
+            <realmName>음악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024061117503363764.jpg</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>275728</seq>
+            <title>15주년 기념공연, 영웅</title>
+            <startDate>20240529</startDate>
+            <endDate>20240811</endDate>
+            <place>세종문화회관 세종대극장</place>
+            <realmName>기타</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/04/rdf_2024042921194594526.gif</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>279764</seq>
+            <title>이은호 바순 독주회</title>
+            <startDate>20240706</startDate>
+            <endDate>20240706</endDate>
+            <place>세종문화회관 세종체임버홀</place>
+            <realmName>음악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_2024061321181465199.png</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>280154</seq>
+            <title>제6회 더울림 앙상블 정기연주회</title>
+            <startDate>20240705</startDate>
+            <endDate>20240705</endDate>
+            <place>세종문화회관 세종체임버홀</place>
+            <realmName>음악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_2024061721182133996.png</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>279492</seq>
+            <title>미네소타 컨템퍼러리 앙상블 MCE 정기연주회 &amp;#39;현대음악의 밤&amp;#39;</title>
+            <startDate>20240823</startDate>
+            <endDate>20240823</endDate>
+            <place>세종문화회관 세종체임버홀</place>
+            <realmName>음악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_202406131685937661.jpg</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>279065</seq>
+            <title>이영주 피아노 독주회: 페루치오 부소니 서거 100주년 기념 시리즈 Ⅱ: 부소니 그리고 바흐</title>
+            <startDate>20240701</startDate>
+            <endDate>20240701</endDate>
+            <place>세종문화회관 세종체임버홀</place>
+            <realmName>음악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_2024060721473216437.png</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>279381</seq>
+            <title>가일플레이어즈 정기연주회: 가일플레이어즈의 음악선물</title>
+            <startDate>20240711</startDate>
+            <endDate>20240711</endDate>
+            <place>세종문화회관 세종체임버홀</place>
+            <realmName>음악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_2024061121182144123.gif</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>280017</seq>
+            <title>2024 묵황캘리그라피 한글기획전 ‘한글을 그리다’</title>
+            <startDate>20240611</startDate>
+            <endDate>20240708</endDate>
+            <place>세종이야기.충무공이야기 전시장</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024061715365121282.png</thumbnail>
+            <gpsX>126.97592250148138</gpsX>
+            <gpsY>37.57261707820589</gpsY>
+        </perforList>
+        <perforList>
+            <seq>273106</seq>
+            <title>[소마미술관] 드로잉 페어링 : 감각의 연결</title>
+            <startDate>20240419</startDate>
+            <endDate>20240825</endDate>
+            <place>소마미술관 2관</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/04/show_202404215593111824.jpg</thumbnail>
+            <gpsX>127.118184522722</gpsX>
+            <gpsY>37.5168648654617</gpsY>
+        </perforList>
+        <perforList>
+            <seq>280352</seq>
+            <title>소암기념관 소장품전 &amp;lt;서書의 향기, 고전古典의 깊이&amp;gt;</title>
+            <startDate>20240514</startDate>
+            <endDate>20240707</endDate>
+            <place>소암기념관</place>
+            <realmName>미술</realmName>
+            <area>제주</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_202406201648847553.jpg</thumbnail>
+            <gpsX>126.56744943291889</gpsX>
+            <gpsY>33.245116573149325</gpsY>
+        </perforList>
+        <perforList>
+            <seq>280087</seq>
+            <title>광산아트플러스 76, 지역미술인 상생 프로젝트「구만채 수채화전 및 호남대 한·중작가전」</title>
+            <startDate>20240618</startDate>
+            <endDate>20240731</endDate>
+            <place>소촌아트팩토리</place>
+            <realmName>미술</realmName>
+            <area>광주</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024061813485972696.jpg</thumbnail>
+            <gpsX>126.7909374688809</gpsX>
+            <gpsY>35.15238919482136</gpsY>
+        </perforList>
+        <perforList>
+            <seq>267844</seq>
+            <title>인쇄, 시대의 기억을 품다</title>
+            <startDate>20240131</startDate>
+            <endDate>20240831</endDate>
+            <place>송파책박물관</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/01/show_202401261214830730.jpg</thumbnail>
+            <gpsX>127.10438467827207</gpsX>
+            <gpsY>37.49888597821397</gpsY>
+        </perforList>
+        <perforList>
+            <seq>279598</seq>
+            <title>[대구] 박예람 플루트 독주회</title>
+            <startDate>20240712</startDate>
+            <endDate>20240712</endDate>
+            <place>수성아트피아 무학홀 (소공연장)</place>
+            <realmName>음악</realmName>
+            <area>대구</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_2024061221192129930.gif</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>274029</seq>
+            <title>쿵짝공원 속 친친</title>
+            <startDate>20240314</startDate>
+            <endDate>20240721</endDate>
+            <place>수원시립만석전시관</place>
+            <realmName>미술</realmName>
+            <area>경기</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/04/show_202404181618497494.jpg</thumbnail>
+            <gpsX>126.999452992479</gpsX>
+            <gpsY>37.29703475297026</gpsY>
+        </perforList>
+        <perforList>
+            <seq>274672</seq>
+            <title>2024 아워세트 : 성능경×이랑</title>
+            <startDate>20240426</startDate>
+            <endDate>20240804</endDate>
+            <place>수원시립아트스페이스광교</place>
+            <realmName>미술</realmName>
+            <area>경기</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/04/show_2024041816315667828.jpg</thumbnail>
+            <gpsX>127.05944581507109</gpsX>
+            <gpsY>37.28581992516903</gpsY>
+        </perforList>
+        <perforList>
+            <seq>277196</seq>
+            <title>국가유산 디지털 전시 &amp;#39;조선의 희비애락, 한 눈에 보다&amp;#39;</title>
+            <startDate>20240523</startDate>
+            <endDate>20240728</endDate>
+            <place>수원화성박물관</place>
+            <realmName>미술</realmName>
+            <area>경기</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_202405211122097135.jpg</thumbnail>
+            <gpsX>127.01901760097013</gpsX>
+            <gpsY>37.28273825518553</gpsY>
+        </perforList>
+        <perforList>
+            <seq>275338</seq>
+            <title>개관 15주년 기념 특별기획전 《그림으로 다시 쓰는 자산어보》</title>
+            <startDate>20240430</startDate>
+            <endDate>20241027</endDate>
+            <place>실학박물관</place>
+            <realmName>미술</realmName>
+            <area>경기</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/04/show_2024042615544563838.png</thumbnail>
+            <gpsX>127.30067857152041</gpsX>
+            <gpsY>37.515982929637744</gpsY>
+        </perforList>
+        <perforList>
+            <seq>260672</seq>
+            <title>사랑에 빠지기까지 디마이너스백</title>
+            <startDate>20231117</startDate>
+            <endDate>20240731</endDate>
+            <place>아루또소극장(구. 소담소극장, 구. 코메디컬센터)</place>
+            <realmName>연극</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024062111333996933.gif</thumbnail>
+            <gpsX>127.0024228</gpsX>
+            <gpsY>37.5829340906</gpsY>
+        </perforList>
+        <perforList>
+            <seq>280453</seq>
+            <title>첫 번째 게임_Uno. Dos. Tres. Cuatro</title>
+            <startDate>20240711</startDate>
+            <endDate>20240711</endDate>
+            <place>아르코예술극장 대극장</place>
+            <realmName>무용</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_20240621022790285.jpg</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>280144</seq>
+            <title>[충남] 클라리네티스트 이선희 독주회: 메즈 클라리넷</title>
+            <startDate>20240713</startDate>
+            <endDate>20240713</endDate>
+            <place>아산시 평생학습관(여성회관 아산아트홀) 공연장 (1층)</place>
+            <realmName>음악</realmName>
+            <area>충남</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_2024061721182075527.gif</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>278480</seq>
+            <title>《두 동굴 이야기 The Scent of ASEAN》</title>
+            <startDate>20240523</startDate>
+            <endDate>20240728</endDate>
+            <place>아세안문화원</place>
+            <realmName>미술</realmName>
+            <area>부산</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_2024053115105149223.jpg</thumbnail>
+            <gpsX>129.182045700507</gpsX>
+            <gpsY>35.1751358860254</gpsY>
+        </perforList>
+        <perforList>
+            <seq>279235</seq>
+            <title>제4회 앙상블 숲 정기연주회: 탱고의 숲</title>
+            <startDate>20240707</startDate>
+            <endDate>20240707</endDate>
+            <place>아트브릿지</place>
+            <realmName>음악</realmName>
+            <area>대전</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_202406102118874859.gif</thumbnail>
+            <gpsX>127.38256174</gpsX>
+            <gpsY>36.3659238264</gpsY>
+        </perforList>
+        <perforList>
+            <seq>280439</seq>
+            <title>제424회 인천시립교향악단 정기연주회, 클래식 에센스 Ⅱ: 슬라빅 웨이브</title>
+            <startDate>20240719</startDate>
+            <endDate>20240719</endDate>
+            <place>아트센터 인천 콘서트홀</place>
+            <realmName>음악</realmName>
+            <area>인천</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024062117492088266.jpg</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>273292</seq>
+            <title>[아트센터 화이트블럭] 범진용 개인전 : 걷는 식물 The Walking Plant</title>
+            <startDate>20240412</startDate>
+            <endDate>20240714</endDate>
+            <place>아트센터 화이트블럭</place>
+            <realmName>미술</realmName>
+            <area>경기</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/04/show_2024040413111235147.jpg</thumbnail>
+            <gpsX>126.69939974903895</gpsX>
+            <gpsY>37.78888535046657</gpsY>
+        </perforList>
+        <perforList>
+            <seq>280435</seq>
+            <title>[안동] 파가니니</title>
+            <startDate>20240719</startDate>
+            <endDate>20240720</endDate>
+            <place>안동문화예술의전당 웅부홀</place>
+            <realmName>기타</realmName>
+            <area>경북</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_2024061921204714469.jpg</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>268352</seq>
+            <title>안성맞춤박물관 특별전 &amp;lt;내 입에 안성맞춤&amp;gt;</title>
+            <startDate>20231110</startDate>
+            <endDate>20240825</endDate>
+            <place>안성맞춤박물관</place>
+            <realmName>미술</realmName>
+            <area>경기</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/02/show_20240211721586266.jpg</thumbnail>
+            <gpsX>127.22835204411767</gpsX>
+            <gpsY>37.01131456710091</gpsY>
+        </perforList>
+        <perforList>
+            <seq>275659</seq>
+            <title>2024년 상반기 양산시립박물관 특별기획전 &amp;lt;양산군수&amp;gt;</title>
+            <startDate>20240426</startDate>
+            <endDate>20240721</endDate>
+            <place>양산시립박물관</place>
+            <realmName>미술</realmName>
+            <area>경남</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/04/show_202404301718896231.jpg</thumbnail>
+            <gpsX>129.04904229242013</gpsX>
+            <gpsY>35.358630911131655</gpsY>
+        </perforList>
+        <perforList>
+            <seq>255216</seq>
+            <title>2023 상설전시《새벽의 표정》</title>
+            <startDate>20230905</startDate>
+            <endDate>20240818</endDate>
+            <place>양주시립장욱진미술관</place>
+            <realmName>미술</realmName>
+            <area>경기</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/23/09/show_202309611234844663.jpg</thumbnail>
+            <gpsX>126.94848588957726</gpsX>
+            <gpsY>37.73245163348783</gpsY>
+        </perforList>
+        <perforList>
+            <seq>280308</seq>
+            <title>[홍성] 재즈 나잇 콘서트</title>
+            <startDate>20240706</startDate>
+            <endDate>20240706</endDate>
+            <place>에제르아트홀</place>
+            <realmName>음악</realmName>
+            <area>충남</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_202406182119508583.jpg</thumbnail>
+            <gpsX>126.6793557</gpsX>
+            <gpsY>36.6570244</gpsY>
+        </perforList>
+        <perforList>
+            <seq>268365</seq>
+            <title>여주박물관 특별기획전 여주, 길로 통하다</title>
+            <startDate>20231025</startDate>
+            <endDate>20240825</endDate>
+            <place>여주박물관</place>
+            <realmName>미술</realmName>
+            <area>경기</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/02/show_202402213202795769.jpg</thumbnail>
+            <gpsX>127.65337817</gpsX>
+            <gpsY>37.2996534995</gpsY>
+        </perforList>
+        <perforList>
+            <seq>279995</seq>
+            <title>블랙뮤직과 춤의 조화 &amp;lt;안무가 류장현 신작 &amp;#39;블랙 BLACK&amp;#39;&amp;gt;</title>
+            <startDate>20240713</startDate>
+            <endDate>20240714</endDate>
+            <place>영등포아트홀</place>
+            <realmName>무용</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024061710295736313.jpg</thumbnail>
+            <gpsX>126.90010722501054</gpsX>
+            <gpsY>37.52600467223053</gpsY>
+        </perforList>
+        <perforList>
+            <seq>279943</seq>
+            <title>박승민 파이프오르간 독주회</title>
+            <startDate>20240704</startDate>
+            <endDate>20240704</endDate>
+            <place>영산아트홀</place>
+            <realmName>음악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_2024061421183399447.gif</thumbnail>
+            <gpsX>126.92493268973102</gpsX>
+            <gpsY>37.529482906932756</gpsY>
+        </perforList>
+        <perforList>
+            <seq>279168</seq>
+            <title>제33회 사랑의 플룻 콘서트 &quot;8월의 크리스마스&quot;</title>
+            <startDate>20240808</startDate>
+            <endDate>20240808</endDate>
+            <place>영산아트홀</place>
+            <realmName>음악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024061212382689839.jpg</thumbnail>
+            <gpsX>126.92493268973102</gpsX>
+            <gpsY>37.529482906932756</gpsY>
+        </perforList>
+        <perforList>
+            <seq>279167</seq>
+            <title>최옥영 &amp;#39;대지를 품고 환경을 조각하다&amp;#39; 展</title>
+            <startDate>20240606</startDate>
+            <endDate>20240922</endDate>
+            <place>영은미술관</place>
+            <realmName>미술</realmName>
+            <area>경기</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024061211453804447.jpg</thumbnail>
+            <gpsX>127.2690676317368</gpsX>
+            <gpsY>37.41307835431107</gpsY>
+        </perforList>
+        <perforList>
+            <seq>279819</seq>
+            <title>[광주] 제35회 강숙자오페라라인 정기연주회: 버섯피자</title>
+            <startDate>20240713</startDate>
+            <endDate>20240713</endDate>
+            <place>예술의 전당 [광주] (구. 광주문화예술회관) 소극장</place>
+            <realmName>음악</realmName>
+            <area>광주</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_2024061321191738136.gif</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>279422</seq>
+            <title>제3회 리수스 콰르텟 정기연주회</title>
+            <startDate>20240711</startDate>
+            <endDate>20240711</endDate>
+            <place>예술의전당 [서울] IBK챔버홀</place>
+            <realmName>음악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_2024061121195164803.gif</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>279927</seq>
+            <title>CMS 라운드테이블 정기연주회: Kreisler X Schoenberg</title>
+            <startDate>20240713</startDate>
+            <endDate>20240713</endDate>
+            <place>예술의전당 [서울] IBK챔버홀</place>
+            <realmName>음악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_2024061421183136086.gif</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>280053</seq>
+            <title>왕명호 플루트 독주회</title>
+            <startDate>20240716</startDate>
+            <endDate>20240716</endDate>
+            <place>예술의전당 [서울] 리사이틀홀</place>
+            <realmName>음악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_2024061621183340624.gif</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>279410</seq>
+            <title>손형원 호른 독주회</title>
+            <startDate>20240706</startDate>
+            <endDate>20240706</endDate>
+            <place>예술의전당 [서울] 리사이틀홀</place>
+            <realmName>음악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_2024061121175488438.gif</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>279803</seq>
+            <title>이상권 귀국 콘트라베이스 독주회</title>
+            <startDate>20240713</startDate>
+            <endDate>20240713</endDate>
+            <place>예술의전당 [서울] 리사이틀홀</place>
+            <realmName>음악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_2024061321185247178.gif</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>279187</seq>
+            <title>제3회 트리오 메리디오 정기연주회</title>
+            <startDate>20240707</startDate>
+            <endDate>20240707</endDate>
+            <place>예술의전당 [서울] 리사이틀홀</place>
+            <realmName>음악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_202406102118374028.gif</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>279999</seq>
+            <title>권민지 귀국 바이올린 독주회</title>
+            <startDate>20240815</startDate>
+            <endDate>20240815</endDate>
+            <place>예술의전당 [서울] 리사이틀홀</place>
+            <realmName>음악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024061712495742159.jpg</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>279034</seq>
+            <title>지브리 &amp; 히사이시 조: 디 오케스트라</title>
+            <startDate>20240707</startDate>
+            <endDate>20240707</endDate>
+            <place>예술의전당 [서울] 콘서트홀</place>
+            <realmName>음악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_202406072149600254.gif</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>280280</seq>
+            <title>제804회 KBS교향악단 정기연주회</title>
+            <startDate>20240718</startDate>
+            <endDate>20240718</endDate>
+            <place>예술의전당 [서울] 콘서트홀</place>
+            <realmName>음악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_2024061821221402846.gif</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>279386</seq>
+            <title>제14회 서울솔로이츠플루트오케스트라 정기연주회</title>
+            <startDate>20240703</startDate>
+            <endDate>20240703</endDate>
+            <place>예술의전당 [서울] 콘서트홀</place>
+            <realmName>음악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_2024061121175213227.gif</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>280169</seq>
+            <title>제30회 포스메가남성합창단 정기연주회</title>
+            <startDate>20240717</startDate>
+            <endDate>20240717</endDate>
+            <place>예술의전당 [서울] 콘서트홀</place>
+            <realmName>음악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_2024061721193816506.gif</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>279096</seq>
+            <title>제127회 서울모테트합창단 정기연주회</title>
+            <startDate>20240709</startDate>
+            <endDate>20240709</endDate>
+            <place>예술의전당 [서울] 콘서트홀</place>
+            <realmName>음악</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/rdf_202406092118742141.gif</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>272842</seq>
+            <title>베르나르 뷔페 - 천재의 빛: 광대의 그림자</title>
+            <startDate>20240426</startDate>
+            <endDate>20240910</endDate>
+            <place>예술의전당(한가람디자인미술관)</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/03/show_202403291634925698.jpg</thumbnail>
+            <gpsX>127.014213883</gpsX>
+            <gpsY>37.480240737</gpsY>
+        </perforList>
+        <perforList>
+            <seq>277148</seq>
+            <title>에드바르 뭉크 - 비욘드 더 스크림</title>
+            <startDate>20240522</startDate>
+            <endDate>20240919</endDate>
+            <place>예술의전당(한가람미술관)</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_2024052015293952668.jpg</thumbnail>
+            <gpsX>127.01423709582056</gpsX>
+            <gpsY>37.480430396609044</gpsY>
+        </perforList>
+        <perforList>
+            <seq>277157</seq>
+            <title>크루즈 디에즈 - RGB, 세기의 컬러들</title>
+            <startDate>20240601</startDate>
+            <endDate>20240918</endDate>
+            <place>예술의전당(한가람미술관)</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_202405201613925527.png</thumbnail>
+            <gpsX>127.01423709582056</gpsX>
+            <gpsY>37.480430396609044</gpsY>
+        </perforList>
+        <perforList>
+            <seq>280648</seq>
+            <title>美妙: nuance</title>
+            <startDate>20240622</startDate>
+            <endDate>20240720</endDate>
+            <place>예화랑</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_202406212122906054.jpg</thumbnail>
+            <gpsX>127.022217921447</gpsX>
+            <gpsY>37.522878975066</gpsY>
+        </perforList>
+        <perforList>
+            <seq>276449</seq>
+            <title>한국·프랑스 해외교류전「다름에서 tolerance까지」展</title>
+            <startDate>20240514</startDate>
+            <endDate>20240818</endDate>
+            <place>오산시립미술관</place>
+            <realmName>미술</realmName>
+            <area>경기</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_202405101704414454.jpg</thumbnail>
+            <gpsX>127.07698043778016</gpsX>
+            <gpsY>37.16026452230766</gpsY>
+        </perforList>
+        <perforList>
+            <seq>278672</seq>
+            <title>2024 오페라 투란도트 - 아레나 디 베로나 오리지널 (2024 Opera Turandot - Arena Di Verona Original)</title>
+            <startDate>20241012</startDate>
+            <endDate>20241019</endDate>
+            <place>올림픽공원 KSPO DOME(체조경기장)</place>
+            <realmName>기타</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_20240612925629126.png</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>277145</seq>
+            <title>김선욱 피아노 리사이틀 Sunwook Kim Piano Recital</title>
+            <startDate>20240706</startDate>
+            <endDate>20240706</endDate>
+            <place>용인포은아트홀</place>
+            <realmName>음악</realmName>
+            <area>경기</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_202405201421878184.jpg</thumbnail>
+            <gpsX>127.10451246050937</gpsX>
+            <gpsY>37.325704581792436</gpsY>
+        </perforList>
+        <perforList>
+            <seq>270884</seq>
+            <title>2024 어린이전시《아이는 아이를 안고》</title>
+            <startDate>20240321</startDate>
+            <endDate>20240922</endDate>
+            <place>울산시립미술관</place>
+            <realmName>미술</realmName>
+            <area>울산</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/03/show_2024037142817488.png</thumbnail>
+            <gpsX>129.32079629369278</gpsX>
+            <gpsY>35.55790321816667</gpsY>
+        </perforList>
+        <perforList>
+            <seq>276702</seq>
+            <title>6.25 전쟁과 참전부대</title>
+            <startDate>20240416</startDate>
+            <endDate>20241124</endDate>
+            <place>유엔군초전기념관</place>
+            <realmName>미술</realmName>
+            <area>경기</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_202405131319256000.png</thumbnail>
+            <gpsX>127.049299433518</gpsX>
+            <gpsY>37.184494700717</gpsY>
+        </perforList>
+        <perforList>
+            <seq>276711</seq>
+            <title>우리가 몰랐던 이호철</title>
+            <startDate>20240502</startDate>
+            <endDate>20240908</endDate>
+            <place>은평역사한옥박물관</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_2024051314534960904.jpg</thumbnail>
+            <gpsX>126.93800114973743</gpsX>
+            <gpsY>37.64033064935363</gpsY>
+        </perforList>
+        <perforList>
+            <seq>279343</seq>
+            <title>당신을 통해서 : 그래서 우리는 그런 식으로 살게 될 것이다</title>
+            <startDate>20240619</startDate>
+            <endDate>20240710</endDate>
+            <place>을지예술센터</place>
+            <realmName>미술</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024061217114760431.jpg</thumbnail>
+            <gpsX>126.99658160314661</gpsX>
+            <gpsY>37.56773608903644</gpsY>
+        </perforList>
+        <perforList>
+            <seq>268369</seq>
+            <title>의왕향토사료관 특별전시 ‘조선시대 한글 이야기’</title>
+            <startDate>20231124</startDate>
+            <endDate>20241115</endDate>
+            <place>의왕향토사료관</place>
+            <realmName>미술</realmName>
+            <area>경기</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/02/show_202402215393292035.jpg</thumbnail>
+            <gpsX>126.969511732</gpsX>
+            <gpsY>37.3422483</gpsY>
+        </perforList>
+        <perforList>
+            <seq>280489</seq>
+            <title>오월특별전시 &amp;lt;서정적 순간, 그 이후...&amp;gt; 展</title>
+            <startDate>20240524</startDate>
+            <endDate>20240731</endDate>
+            <place>이강하 미술관</place>
+            <realmName>미술</realmName>
+            <area>광주</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024062116203511636.jpg</thumbnail>
+            <gpsX>126.91562051289922</gpsX>
+            <gpsY>35.13688577785184</gpsY>
+        </perforList>
+        <perforList>
+            <seq>271915</seq>
+            <title>은하수로 흐르는 별</title>
+            <startDate>20231205</startDate>
+            <endDate>20240831</endDate>
+            <place>이성자미술관</place>
+            <realmName>미술</realmName>
+            <area>경남</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/03/show_2024031915443388579.jpg</thumbnail>
+            <gpsX>128.1427561387228</gpsX>
+            <gpsY>35.17587785343491</gpsY>
+        </perforList>
+        <perforList>
+            <seq>280353</seq>
+            <title>이중섭특별전 2부 &amp;lt;그리움은 그림이 되어&amp;gt;</title>
+            <startDate>20240625</startDate>
+            <endDate>20240818</endDate>
+            <place>이중섭미술관</place>
+            <realmName>미술</realmName>
+            <area>제주</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024062016585042865.jpg</thumbnail>
+            <gpsX>126.5648892129399</gpsX>
+            <gpsY>33.2458740292824</gpsY>
+        </perforList>
+        <perforList>
+            <seq>280355</seq>
+            <title>기증작품전 &amp;lt;이중섭과 동시대 화가들&amp;gt;</title>
+            <startDate>20240625</startDate>
+            <endDate>20240818</endDate>
+            <place>이중섭미술관</place>
+            <realmName>미술</realmName>
+            <area>제주</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_202406201723529699.jpg</thumbnail>
+            <gpsX>126.5648892129399</gpsX>
+            <gpsY>33.2458740292824</gpsY>
+        </perforList>
+        <perforList>
+            <seq>278832</seq>
+            <title>가족오페라 마술피리</title>
+            <startDate>20240713</startDate>
+            <endDate>20240713</endDate>
+            <place>이천아트홀 소공연장</place>
+            <realmName>기타</realmName>
+            <area>경기</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024060696369797.jpg</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>273394</seq>
+            <title>2024년 수봉IN기획공연 시리즈</title>
+            <startDate>20240511</startDate>
+            <endDate>20240928</endDate>
+            <place>인천수봉문화회관 소극장</place>
+            <realmName>기타</realmName>
+            <area>인천</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/04/show_202404059283483456.jpg</thumbnail>
+            <gpsX></gpsX>
+            <gpsY></gpsY>
+        </perforList>
+        <perforList>
+            <seq>279339</seq>
+            <title>뮤지컬 아이스쇼 &amp;lt;G-SHOW : THE LUNA&amp;gt;</title>
+            <startDate>20240812</startDate>
+            <endDate>20240831</endDate>
+            <place>잠실학생체육관</place>
+            <realmName>기타</realmName>
+            <area>서울</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_202406121722896242.jpg</thumbnail>
+            <gpsX>127.07538079462326</gpsX>
+            <gpsY>37.512156424594124</gpsY>
+        </perforList>
+        <perforList>
+            <seq>279486</seq>
+            <title>[장수] 국보순회전: 모두의 곁으로 ‘금관총 금관, 그리고 이사지왕’</title>
+            <startDate>20240913</startDate>
+            <endDate>20241201</endDate>
+            <place>장수군립도서관</place>
+            <realmName>미술</realmName>
+            <area>전북</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024061315541162027.jpg</thumbnail>
+            <gpsX>127.582021839</gpsX>
+            <gpsY>35.7339819653</gpsY>
+        </perforList>
+        <perforList>
+            <seq>275658</seq>
+            <title>개관 3주년 특별전《흘러가는 바람, 불어오는 물결》</title>
+            <startDate>20240409</startDate>
+            <endDate>20240707</endDate>
+            <place>전남도립미술관</place>
+            <realmName>미술</realmName>
+            <area>전남</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/04/show_2024043016543283845.jpg</thumbnail>
+            <gpsX>127.58885129381345</gpsX>
+            <gpsY>34.96769918650398</gpsY>
+        </perforList>
+        <perforList>
+            <seq>277248</seq>
+            <title>리너스 반 데 벨데: 나는 욕조에서 망고를 먹고 싶다</title>
+            <startDate>20240521</startDate>
+            <endDate>20240818</endDate>
+            <place>전남도립미술관</place>
+            <realmName>미술</realmName>
+            <area>전남</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/05/show_202405221532375662.jpg</thumbnail>
+            <gpsX>127.58885129381345</gpsX>
+            <gpsY>34.96769918650398</gpsY>
+        </perforList>
+        <perforList>
+            <seq>274867</seq>
+            <title>PAPER+JAM</title>
+            <startDate>20240426</startDate>
+            <endDate>20240922</endDate>
+            <place>전북도립미술관</place>
+            <realmName>미술</realmName>
+            <area>전북</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/04/show_2024042216343304326.png</thumbnail>
+            <gpsX>127.10686658889357</gpsX>
+            <gpsY>35.72772282871498</gpsY>
+        </perforList>
+        <perforList>
+            <seq>280358</seq>
+            <title>2024 국립현대미술관 미술은행 소장품 기획전시《이상적 동행》</title>
+            <startDate>20240604</startDate>
+            <endDate>20240728</endDate>
+            <place>정읍시립미술관</place>
+            <realmName>미술</realmName>
+            <area>전북</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024062017365227594.jpg</thumbnail>
+            <gpsX>126.861604479703</gpsX>
+            <gpsY>35.5523056507737</gpsY>
+        </perforList>
+        <perforList>
+            <seq>274657</seq>
+            <title>문자의 발견: 현실과 이상의 미학</title>
+            <startDate>20240319</startDate>
+            <endDate>20240721</endDate>
+            <place>제주도립김창열미술관</place>
+            <realmName>미술</realmName>
+            <area>제주</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/04/show_2024041817132231760.png</thumbnail>
+            <gpsX>126.26866208311382</gpsX>
+            <gpsY>33.33906783532018</gpsY>
+        </perforList>
+        <perforList>
+            <seq>280093</seq>
+            <title>회귀, 다시 돌아오다</title>
+            <startDate>20240423</startDate>
+            <endDate>20240811</endDate>
+            <place>제주도립김창열미술관</place>
+            <realmName>미술</realmName>
+            <area>제주</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024061815105776569.jpg</thumbnail>
+            <gpsX>126.26866208311382</gpsX>
+            <gpsY>33.33906783532018</gpsY>
+        </perforList>
+        <perforList>
+            <seq>275340</seq>
+            <title>이건희컬렉션 한국 근현대 미술 특별전《시대유감(時代有感)》</title>
+            <startDate>20240423</startDate>
+            <endDate>20240721</endDate>
+            <place>제주도립미술관</place>
+            <realmName>미술</realmName>
+            <area>제주</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/04/show_2024042616172283877.jpg</thumbnail>
+            <gpsX>126.48963496144127</gpsX>
+            <gpsY>33.45259362658467</gpsY>
+        </perforList>
+        <perforList>
+            <seq>275342</seq>
+            <title>신소장품 2020-2023 가냥하곡 거념하곡</title>
+            <startDate>20240423</startDate>
+            <endDate>20240721</endDate>
+            <place>제주도립미술관</place>
+            <realmName>미술</realmName>
+            <area>제주</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/04/show_2024042616233339726.jpg</thumbnail>
+            <gpsX>126.48963496144127</gpsX>
+            <gpsY>33.45259362658467</gpsY>
+        </perforList>
+        <perforList>
+            <seq>273114</seq>
+            <title>장리석기념관 상설전 《노老화가의 독백》</title>
+            <startDate>20240312</startDate>
+            <endDate>20241103</endDate>
+            <place>제주도립미술관</place>
+            <realmName>미술</realmName>
+            <area>제주</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/04/show_202404215193070434.jpg</thumbnail>
+            <gpsX>126.48963496144127</gpsX>
+            <gpsY>33.45259362658467</gpsY>
+        </perforList>
+        <perforList>
+            <seq>267696</seq>
+            <title>김흥수: Passion</title>
+            <startDate>20231026</startDate>
+            <endDate>20241027</endDate>
+            <place>제주현대미술관</place>
+            <realmName>미술</realmName>
+            <area>제주</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/01/show_2024012314465763035.png</thumbnail>
+            <gpsX>126.26559563897358</gpsX>
+            <gpsY>33.33967860526624</gpsY>
+        </perforList>
+        <perforList>
+            <seq>274658</seq>
+            <title>2024 아트저지Ⅰ&amp;lt;이웅철 더 라인-기억의 거울&amp;gt;</title>
+            <startDate>20240313</startDate>
+            <endDate>20240825</endDate>
+            <place>제주현대미술관</place>
+            <realmName>미술</realmName>
+            <area>제주</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/04/show_2024041817221383280.jpg</thumbnail>
+            <gpsX>126.26559563897358</gpsX>
+            <gpsY>33.33967860526624</gpsY>
+        </perforList>
+        <perforList>
+            <seq>279622</seq>
+            <title>특별기획전「석하 전형무, 진안을 기억한 기록가」</title>
+            <startDate>20240528</startDate>
+            <endDate>20241013</endDate>
+            <place>진안역사박물관</place>
+            <realmName>미술</realmName>
+            <area>전북</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024061410365483253.jpg</thumbnail>
+            <gpsX>127.41674451142768</gpsX>
+            <gpsY>35.77240022421353</gpsY>
+        </perforList>
+        <perforList>
+            <seq>280347</seq>
+            <title>문신이 사랑한 마산</title>
+            <startDate>20240503</startDate>
+            <endDate>20241027</endDate>
+            <place>창원시립마산문신미술관</place>
+            <realmName>미술</realmName>
+            <area>경남</area>
+            <thumbnail>http://www.culture.go.kr/upload/rdf/24/06/show_2024062016155864927.png</thumbnail>
+            <gpsX>128.5689782050479</gpsX>
+            <gpsY>35.206315420793956</gpsY>
+        </perforList>
+    </msgBody>
+</response>
