@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    
+  var xhr = new XMLHttpRequest();
+  var url = 'http://api.kcisa.kr/openapi/CNV_060/request'; /*URL*/
+  //a52bbe88-abbf-4e02-8d3b-bd5ce6775c54
+  var queryParams = '?' + encodeURIComponent('serviceKey') + '=' + 'a52bbe88-abbf-4e02-8d3b-bd5ce6775c54'; /*서비스키*/
+  queryParams += '&' + encodeURIComponent('numOfRows') + '=' + encodeURIComponent('10'); /*세션당 요청레코드수*/
+  queryParams += '&' + encodeURIComponent('pageNo') + '=' + encodeURIComponent('1'); /*페이지수*/
+  //35304
+  
+  xhr.open('GET', url + queryParams);
+  xhr.onload = function () {
+    if (this.readyState == 4) {
+      console.log('status: ' + this.status);
+
+      if (this.status == 200) {
+        var parser = new DOMParser(); // XML 문자열을 파싱하기 위해 DOMParser 객체를 생성
+        var xmlDoc = parser.parseFromString(this.responseText, "text/xml"); // XML 문자열을 XML DOM 객체로 변환
+        console.log(xmlDoc);
+        
+        // JSON으로 변환하여 데이터를 설정하는 부분
+        const jsonData = xmlToJson(xmlDoc);
+        // setData(jsonData);
+        console.log(jsonData);
+        const list = jsonData.response.body[0].items[0].item;
+
+        list.forEach((item) => {
+          console.log("charge: ", item.charge);
+          console.log("contactPoint: ", item.contactPoint);
+          console.log("description: ", item.description);
+          console.log("eventPeriod: ", item.eventPeriod);
+          console.log("eventSite: ", item.eventSite);
+          console.log("imageObject: ", item.imageObject);
+          console.log("period: ", item.period);
+          console.log("title: ", item.title);
+          console.log("type: ", item.type);
+          console.log("url: ", item.url);
+          console.log("viewCount: ", item.viewCount);
+        });
+
+        const newApiList = list.map((item, index) => {
+          return {
+            cultureCode: index + 1, // List내 객체 구분에 필요한 key
+            title: item.title, // 제목
+            price: item.charge === Array ? "가격정보 없음" : item.charge, // 가격  
+            place: item.eventSite,
+            startDate: item.period.split(" ~ ")[0],
+            imgUrl: item.imageObject === Array ? "이미지 없음" : item.imageObject,
+            url: item.url === Array ? "공식 홈페이지 정보 없음" : item.url,
+            detail : item.description,
+            contact : item.contactPoint            
+            }
+        })
+
+        console.log("newApiList",newApiList);
+
+      } else {
+        console.error('Failed to fetch data: ' + this.status);
+        console.error('Response: ' + this.responseText);
+      }
+    }
+  };
+  xhr.send('');
+
+  const xmlToJson = (xml) => {
+    const result = {};
+    const root = xml.documentElement;
+
+    const parseNode = (node) => {
+      const obj = {};
+
+      if (node.nodeType === Node.ELEMENT_NODE && node.attributes.length > 0) {
+        for (const attr of node.attributes) {
+          obj[attr.nodeName] = attr.nodeValue;
+        }
+      }
+
+      if (node.hasChildNodes()) {
+        for (const child of node.childNodes) {
+          if (child.nodeType === Node.ELEMENT_NODE) {
+            if (child.childNodes.length === 1 && child.firstChild.nodeType === Node.TEXT_NODE) {
+              obj[child.nodeName] = child.textContent.trim();
+            } else {
+              if (!obj[child.nodeName]) {
+                obj[child.nodeName] = [];
+              }
+              obj[child.nodeName].push(parseNode(child));
+            }
+          }
+        }
+      }
+
+      return obj;
+    };
+
+    result[root.nodeName] = parseNode(root);
+    return result;
+  };
+
+  </script>
+</body>
+</html>
