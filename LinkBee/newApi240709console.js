@@ -1,0 +1,26 @@
+// response.items.forEach(function(item) {
+          //     console.log("TITLE: " + item.TITLE);
+          //     console.log("CNTC_INSTT_NM: " + item.CNTC_INSTT_NM);
+          //     console.log("COLLECTED_DATE: " + item.COLLECTED_DATE);
+          //     console.log("ISSUED_DATE: " + item.ISSUED_DATE);
+          //     console.log("DESCRIPTION: " + item.DESCRIPTION);
+          //     console.log("IMAGE_OBJECT: " + item.IMAGE_OBJECT);
+          //     console.log("LOCAL_ID: " + item.LOCAL_ID);
+          //     console.log("URL: " + item.URL);
+          //     console.log("VIEW_COUNT: " + item.VIEW_COUNT);
+          //     console.log("SUB_DESCRIPTION: " + item.SUB_DESCRIPTION);
+          //     console.log("SPATIAL_COVERAGE: " + item.SPATIAL_COVERAGE);
+          //     console.log("EVENT_SITE: " + item.EVENT_SITE);
+          //     console.log("GENRE: " + item.GENRE);
+          //     console.log("DURATION: " + item.DURATION);
+          //     console.log("NUMBER_PAGES: " + item.NUMBER_PAGES);
+          //     console.log("TABLE_OF_CONTENTS: " + item.TABLE_OF_CONTENTS);
+          //     console.log("AUTHOR: " + item.AUTHOR);
+          //     console.log("CONTACT_POINT: " + item.CONTACT_POINT);
+          //     console.log("ACTOR: " + item.ACTOR);
+          //     console.log("CONTRIBUTOR: " + item.CONTRIBUTOR);
+          //     console.log("AUDIENCE: " + item.AUDIENCE);
+          //     console.log("CHARGE: " + item.CHARGE);
+          //     console.log("PERIOD: " + item.PERIOD);
+          //     console.log("EVENT_PERIOD: " + item.EVENT_PERIOD);
+          // });
